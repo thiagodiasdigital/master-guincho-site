@@ -21,7 +21,7 @@ export const seoConfigTemplate: SeoConfigTemplate = {
   titleTemplate: "%s | Master Guincho",
   defaultDescription:
     "Guincho, reboque, auto socorro e taxi 24h em Ituiutaba e regiao, com atendimento para carros, motos, caminhonetes, vans, caminhões, cargas especiais, embarcacoes e maquinas.",
-  canonicalBaseUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.masterguincho.com.br",
+  canonicalBaseUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://master-guincho.vercel.app",
   indexable: process.env.NEXT_PUBLIC_INDEXABLE ? process.env.NEXT_PUBLIC_INDEXABLE === "true" : true,
   defaultOgImage: "/images/master-guincho-fallback-hero-16x9.png",
   robots: {

@@ -43,7 +43,7 @@ export const siteConfigTemplate: SiteConfigTemplate = {
   brandName: "Master Guincho",
   legalName: "",
   document: "",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.masterguincho.com.br",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://master-guincho.vercel.app",
   siteName: process.env.NEXT_PUBLIC_SITE_NAME || "Master Guincho",
   phone: "(34) 99973-9261",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER
