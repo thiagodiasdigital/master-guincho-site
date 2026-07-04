@@ -87,6 +87,7 @@ export const siteConfigTemplate: SiteConfigTemplate = {
     process.env.NEXT_PUBLIC_GOOGLE_REVIEWS_URL || "https://maps.app.goo.gl/wo5rU1Qz639VfnRw9",
   navItems: [
     { label: "Inicio", href: "#inicio" },
+    { label: "Vitrine", href: "/vitrine/" },
     { label: "Frota", href: "#frota" },
     { label: "Solucoes", href: "#solucoes" },
     { label: "Servicos", href: "/servicos/" },

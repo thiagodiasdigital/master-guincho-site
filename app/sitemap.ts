@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteConfigTemplate } from "../config/site.config";
 import { routePages } from "./rotas/routeData";
 import { servicePages } from "./servicos/serviceData";
+import { vitrinePages } from "./vitrine/vitrineData";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -37,6 +38,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.86
+    })),
+    {
+      url: `${siteUrl}/vitrine/`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9
+    },
+    ...vitrinePages.map((page) => ({
+      url: `${siteUrl}/vitrine/${page.slug}/`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.88
     }))
   ];
 }

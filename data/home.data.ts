@@ -59,9 +59,9 @@ export const homeDataTemplate: HomeDataTemplate = {
     },
     showcase: {
       eyebrow: "Vitrine",
-      title: "Uma vitrine visual para reforcar frota, base e capacidade operacional",
+      title: "Uma vitrine visual por tipo de veiculo e carga",
       description:
-        "Use este espaco para mostrar veiculos, base fisica, operacao real e provas visuais que aumentam a confianca."
+        "Use este espaco para mostrar moto, carro, caminhao, embarcacao e outros cenarios com paginas individuais."
     },
     services: {
       eyebrow: "Servicos",
