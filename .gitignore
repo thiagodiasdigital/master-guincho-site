@@ -1,0 +1,66 @@
+# dependencies
+node_modules/
+
+# next
+.next/
+out/
+
+# production
+dist/
+build/
+
+# cache
+.turbo/
+.cache/
+
+# coverage
+coverage/
+
+# vercel
+.vercel/
+
+# env files
+.env
+.env.local
+.env.development
+.env.production
+.env.preview
+.env.*.local
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# typescript
+tsconfig.tsbuildinfo
+
+# system
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Internal material moved out of the runtime tree
+docs/internal/reports-kit/
+docs/internal/hero-lab/
+
+# Loose original/approval media kept locally, not served by the Next app.
+/aprove-1.png
+/aprove-2.png
+/caminhonete-hilux.png
+/jcl-transporte-e-locaÃ§Ã£o-parauapebas-pa.mp4
+/locaÃ§Ã£o-de-micro-Ã´nibus-em-parauapebas-pa.mp4
+/logotipo-4k.png
+/micro-novo.jpg
+/micro-onibus-google.png
+/micro-onibus-novo-1.png
+/micro-onibus.png
+/van-15+1-lugares.png
+/van-20-lugares.png
