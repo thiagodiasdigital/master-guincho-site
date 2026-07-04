@@ -15,7 +15,7 @@ const whatsapp = buildWhatsAppUrl({
 export const metadata: Metadata = {
   title: `Servicos | ${siteConfigTemplate.siteName}`,
   description:
-    "Hub de servicos da Master Guincho com paginas para guincho, reboque, auto socorro e taxi 24h.",
+    "Hub de serviços da Master Guincho com páginas para guincho, reboque, auto socorro e táxi 24h.",
   alternates: {
     canonical: "/servicos/"
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     title: `Servicos | ${siteConfigTemplate.siteName}`,
     description:
-      "Estrutura para organizar servicos, argumentos de valor e conversao da Master Guincho.",
+      "Página central para organizar serviços, argumentos de valor e conversão da Master Guincho.",
     type: "website",
     locale: "pt_BR",
     images: [
@@ -153,21 +153,21 @@ export default function ServicesPage() {
                 Estrutura comercial
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Servicos modelados para conversao
+                Serviços modelados para conversão
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>
                 Este hub organiza as ofertas principais da Master Guincho em cards
-                reutilizaveis e prontos para navegação local.
+                prontos para navegação local.
               </p>
               <p>
                 Cada pagina interna aprofunda um servico com contexto, pergunta frequente
                 e chamada objetiva para o WhatsApp.
               </p>
               <p>
-                A arquitetura favorece SEO, GEO e AIO sem sacrificar a leitura rapida do
-                usuario.
+                A arquitetura favorece SEO, GEO e AIO sem sacrificar a leitura rápida do
+                usuário.
               </p>
             </div>
           </div>
@@ -179,7 +179,7 @@ export default function ServicesPage() {
               Areas atendidas
             </p>
             <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-              Cobertura configurada pela operacao real
+                Cobertura definida pela operação real
             </h2>
             <div className="mt-10 grid gap-3 sm:grid-cols-2">
               {siteConfigTemplate.serviceAreas.map((area) => (

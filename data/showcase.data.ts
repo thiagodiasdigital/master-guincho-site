@@ -22,7 +22,7 @@ export const showcaseDataTemplate: ShowcaseDataTemplate = {
     eyebrow: "Vitrine",
     title: "Cards por tipo de veiculo e carga",
     description:
-      "Use esta area para destacar imagens reais de moto, carro, caminhao, embarcacao e demais cenarios da Master Guincho."
+      "Área dedicada para destacar imagens reais de moto, carro, caminhão, embarcação e demais cenários da Master Guincho."
   },
   items: [
     {

@@ -15,7 +15,7 @@ const whatsapp = buildWhatsAppUrl({
 export const metadata: Metadata = {
   title: `Cobertura e rotas | ${siteConfigTemplate.siteName}`,
   description:
-    "Hub de cobertura geografica da Master Guincho com paginas de cidades e prioridades geo.",
+    "Hub de cobertura geográfica da Master Guincho com páginas de cidades e prioridades geo.",
   alternates: {
     canonical: "/rotas/"
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     title: `Cobertura e rotas | ${siteConfigTemplate.siteName}`,
     description:
-      "Estrutura para representar localidade, cobertura e contexto geografico da Master Guincho.",
+      "Estrutura para representar localidade, cobertura e contexto geográfico da Master Guincho.",
     type: "website",
     locale: "pt_BR",
     images: [
@@ -137,14 +137,14 @@ export default function RoutesPage() {
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>
                 Este hub organiza as cidades atendidas pela Master Guincho e serve como
-                ponte entre busca local, cobertura e conversao.
+                ponte entre busca local, cobertura e conversão.
               </p>
               <p>
-                Cada item do dataset pode receber ajustes por cidade, rodovia ou area de
-                prioridade sem alterar a estrutura visual.
+                Cada item da lista pode receber ajustes por cidade, rodovia ou área de
+                prioridade sem alterar a apresentação da página.
               </p>
               <p>
-                A relacao entre cobertura, servicos e CTA e mantida por configuracao e
+                A relação entre cobertura, serviços e CTA é mantida por configuração e
                 dados do projeto.
               </p>
             </div>

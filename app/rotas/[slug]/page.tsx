@@ -176,17 +176,17 @@ export default async function RouteDetailPage({ params }: PageProps) {
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Contexto geografico
+                Contexto geográfico
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Pagina de cobertura local
+                Página de cobertura local
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>{route.routeSummary}</p>
               <p>
-                Esta pagina foi estruturada para servir como rota ou cidade real, sem
-                depender de copia genérica.
+                Esta página foi estruturada para servir como rota ou cidade real, sem
+                depender de cópia genérica.
               </p>
             </div>
           </div>
@@ -228,7 +228,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
                 Notas operacionais
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Como adaptar esta localidade
+                Como esta cobertura atende a localidade
               </h2>
               <div className="mt-8 grid gap-3">
                 {route.operationalNotes.map((note) => (
@@ -240,7 +240,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
             </div>
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Proximos servicos
+                Próximos serviços
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
                 Relacione cobertura e oferta

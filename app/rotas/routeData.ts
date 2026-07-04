@@ -48,7 +48,7 @@ export const routePages: RoutePage[] = [
       "Ponto central de origem da operacao."
     ],
     operationalNotes: [
-      "Use esta pagina como hub da cobertura local.",
+      "Esta página é a referência principal para a cobertura local.",
       "Ideal para visitas que chegam por busca de marca ou cidade.",
       "Pode ser ampliada com provas e fotos locais."
     ],

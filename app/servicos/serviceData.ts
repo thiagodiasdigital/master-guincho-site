@@ -74,7 +74,7 @@ export const servicePages: ServicePage[] = [
     summary:
       "Transporte de veiculos com suporte para pane, sinistro, deslocamento programado e necessidade de retirada segura.",
     intro:
-      "Use esta pagina para explicar o reboque como solucao de transporte seguro para veiculos que precisam ser deslocados sem rodar por conta propria.",
+      "Página dedicada ao reboque como solução de transporte seguro para veículos que precisam ser deslocados sem rodar por conta própria.",
     definition:
       "Reboque e o servico de transporte de veiculo por equipamento adequado, com foco em seguranca, preservacao do bem e agilidade na retirada.",
     idealFor: [
@@ -174,7 +174,7 @@ export const servicePages: ServicePage[] = [
     summary:
       "Transporte de passageiros sob demanda para deslocamentos locais e regionais, com contato rapido e atendimento flexivel.",
     intro:
-      "Use esta pagina para posicionar o taxi como um servico complementar da operacao, voltado para deslocamentos de passageiros quando houver necessidade.",
+      "Página dedicada a posicionar o táxi como um serviço complementar da operação, voltado para deslocamentos de passageiros quando houver necessidade.",
     definition:
       "Taxi 24h e o servico de transporte de passageiros sob demanda, pensado para deslocamentos de curta ou media distancia com acionamento rapido.",
     idealFor: [

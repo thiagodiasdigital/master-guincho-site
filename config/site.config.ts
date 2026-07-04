@@ -104,5 +104,5 @@ export const siteConfigTemplate: SiteConfigTemplate = {
     label: "Ver cobertura",
     href: "#cobertura"
   },
-  footerDescription: "Atendimento 24h em Ituiutaba e regiao com guincho, reboque, auto socorro e taxi."
+  footerDescription: "Atendimento 24h em Ituiutaba e região com guincho, reboque, auto socorro e táxi."
 };

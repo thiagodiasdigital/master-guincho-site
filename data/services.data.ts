@@ -19,47 +19,47 @@ export type ServicesDataTemplate = {
 
 export const servicesDataTemplate: ServicesDataTemplate = {
   section: {
-    eyebrow: 'Servicos',
-    title: 'Solucoes principais da Master Guincho',
+    eyebrow: "Serviços",
+    title: "Soluções principais da Master Guincho",
     description:
-      'Organize aqui a lista de ofertas em cards editaveis, mantendo a mesma estrutura visual da Home.'
+      "Serviços organizados para orientar o cliente com clareza, rapidez e foco em conversão."
   },
   items: [
     {
-      title: 'Guincho 24h',
-      description: 'Remocao rapida para carros, motos, caminhonetes, vans e utilitarios.',
-      href: '/servicos/guincho-24h/',
-      ctaLabel: 'Chamar agora',
-      icon: 'support',
-      image: '/images/master-guincho-carro-guincho.png',
-      tags: ['24h', 'remocao', 'leve']
+      title: "Guincho 24h",
+      description: "Remoção rápida para carros, motos, caminhonetes, vans e utilitários.",
+      href: "/servicos/guincho-24h/",
+      ctaLabel: "Chamar agora",
+      icon: "support",
+      image: "/images/master-guincho-carro-guincho.png",
+      tags: ["24h", "remoção", "leve"]
     },
     {
-      title: 'Reboque',
-      description: 'Atendimento para pane, sinistro, transporte e deslocamento programado.',
-      href: '/servicos/reboque-24h/',
-      ctaLabel: 'Solicitar reboque',
-      icon: 'star',
-      image: '/images/master-guincho-caminhonete-guincho.png',
-      tags: ['reboque', 'sinistro', 'pane']
+      title: "Reboque",
+      description: "Atendimento para pane, sinistro, transporte e deslocamento programado.",
+      href: "/servicos/reboque-24h/",
+      ctaLabel: "Solicitar reboque",
+      icon: "star",
+      image: "/images/master-guincho-caminhonete-guincho.png",
+      tags: ["reboque", "sinistro", "pane"]
     },
     {
-      title: 'Auto socorro',
-      description: 'Assistencia emergencial na estrada, na cidade e em rotas regionais.',
-      href: '/servicos/auto-socorro/',
-      ctaLabel: 'Pedir socorro',
-      icon: 'chat',
-      image: '/images/master-guincho-moto-guincho.png',
-      tags: ['socorro', 'emergencia', 'estrada']
+      title: "Auto socorro",
+      description: "Assistência emergencial na estrada, na cidade e em rotas regionais.",
+      href: "/servicos/auto-socorro/",
+      ctaLabel: "Pedir socorro",
+      icon: "chat",
+      image: "/images/master-guincho-moto-guincho.png",
+      tags: ["socorro", "emergência", "estrada"]
     },
     {
-      title: 'Taxi',
-      description: 'Transporte de passageiros sob demanda para deslocamentos locais e regionais.',
-      href: '/servicos/taxi-24h/',
-      ctaLabel: 'Chamar taxi',
-      icon: 'location',
-      image: '/images/master-guincho-taxi.jpeg',
-      tags: ['passageiros', 'deslocamento', '24h']
+      title: "Táxi",
+      description: "Transporte de passageiros sob demanda para deslocamentos locais e regionais.",
+      href: "/servicos/taxi-24h/",
+      ctaLabel: "Chamar táxi",
+      icon: "location",
+      image: "/images/master-guincho-taxi.jpeg",
+      tags: ["passageiros", "deslocamento", "24h"]
     }
   ]
 };

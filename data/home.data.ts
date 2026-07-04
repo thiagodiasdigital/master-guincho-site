@@ -50,52 +50,52 @@ export type HomeDataTemplate = {
 export const homeDataTemplate: HomeDataTemplate = {
   sections: {
     intro: {
-      eyebrow: "Apresentacao",
+      eyebrow: "Apresentação",
       title: "Atendimento 24h para quem precisa de ajuda na estrada ou na cidade",
       copy: [
-        "A Master Guincho atende ocorrencias com agilidade, organizacao e foco em seguranca, conectando o cliente ao canal certo no menor tempo possivel.",
-        "O conteudo pode ser ajustado por contexto de cobertura, mas a estrutura visual e de conversao permanece a mesma."
+        "A Master Guincho atende ocorrências com agilidade, organização e foco em segurança, conectando o cliente ao canal certo no menor tempo possível.",
+        "O site foi preparado para apresentar cobertura, serviços e contato de forma clara, sem ruído para o cliente."
       ]
     },
     showcase: {
       eyebrow: "Vitrine",
-      title: "Uma vitrine visual por tipo de veiculo e carga",
+      title: "Uma vitrine visual por tipo de veículo e carga",
       description:
-        "Use este espaco para mostrar moto, carro, caminhao, embarcacao e outros cenarios com paginas individuais."
+        "Espaço para mostrar moto, carro, caminhão, embarcação e outros cenários com páginas individuais."
     },
     services: {
-      eyebrow: "Servicos",
-      title: "Servicos organizados para conversao rapida",
+      eyebrow: "Serviços",
+      title: "Serviços organizados para conversão rápida",
       description:
-        "A lista de cards organiza a oferta principal da empresa sem mexer no layout geral da pagina."
+        "A lista de cards organiza a oferta principal da empresa sem mexer no layout geral da página."
     },
     coverage: {
       eyebrow: "Cobertura",
-      title: "Areas atendidas e regioes prioritarias",
+      title: "Áreas atendidas e regiões prioritárias",
       description:
-        "Este bloco serve para mostrar cidades, bairros, regioes ou qualquer delimitacao geografica importante para SEO local."
+        "Este bloco serve para mostrar cidades, bairros, regiões ou qualquer delimitação geográfica importante para SEO local."
     },
     differentiators: {
       eyebrow: "Diferenciais",
-      title: "Pontos de valor que ajudam na decisao",
+      title: "Pontos de valor que ajudam na decisão",
       description:
-        "A lista abaixo destaca sinais de confianca, prontidao e cobertura real da operacao.",
+        "A lista abaixo destaca sinais de confiança, prontidão e cobertura real da operação.",
       items: [
         {
           title: "Atendimento 24h",
-          description: "Canal pronto para emergencias, de dia ou de noite."
+          description: "Canal pronto para emergências, de dia ou de noite."
         },
         {
-          title: "Resposta rapida",
-          description: "Reduz a espera em ocorrencias na cidade ou na rodovia."
+          title: "Resposta rápida",
+          description: "Reduz a espera em ocorrências na cidade ou na rodovia."
         },
         {
           title: "Frota adequada",
-          description: "Veiculos para leves, pesados, especiais e passageiros."
+          description: "Veículos para leves, pesados, especiais e passageiros."
         },
         {
           title: "Cobertura regional",
-          description: "Atende Ituiutaba, cidades vizinhas e rotas prioritarias."
+          description: "Atende Ituiutaba, cidades vizinhas e rotas prioritárias."
         }
       ]
     },
@@ -103,7 +103,7 @@ export const homeDataTemplate: HomeDataTemplate = {
       eyebrow: "FAQ",
       title: "Perguntas frequentes",
       description:
-        "As perguntas e respostas abaixo tambem alimentam o schema da pagina e ajudam em AIO.",
+        "As perguntas e respostas abaixo também alimentam o schema da página e ajudam em AIO.",
       items: faqTemplate
     },
     finalCta: {

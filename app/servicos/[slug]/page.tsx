@@ -176,7 +176,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                O que este servico resolve
+                O que este serviço resolve
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
                 Estrutura clara para a oferta principal
@@ -225,7 +225,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                 Processo sugerido
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Como esta pagina pode orientar a conversa
+                Como esta página ajuda na decisão
               </h2>
               <div className="mt-8 grid gap-3">
                 {service.processSteps.map((step) => (
@@ -240,7 +240,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                 Cobertura configuravel
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Areas e escopo definidos pela operacao
+                Áreas e escopo definidos pela operação
               </h2>
               <div className="mt-8 grid gap-3">
                 {service.coverage.map((item) => (
