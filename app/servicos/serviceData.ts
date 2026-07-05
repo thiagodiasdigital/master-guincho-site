@@ -160,7 +160,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         question: "Esse serviço funciona para empresa e particular?",
-        answer: "Sim. A página existe para deixar claro que a prioridade é atendimento emergencial e resposta imediata."
+        answer: "Sim. A prioridade é atendimento emergencial e resposta imediata."
       },
       {
         question: "O foco aqui é a rapidez?",

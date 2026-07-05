@@ -103,7 +103,7 @@ export const homeDataTemplate: HomeDataTemplate = {
       eyebrow: "FAQ",
       title: "Perguntas frequentes",
       description:
-        "As perguntas e respostas abaixo também alimentam o schema da página e ajudam em AIO.",
+        "As perguntas e respostas abaixo ajudam o visitante a entender o atendimento e a cobertura.",
       items: faqTemplate
     },
     finalCta: {

@@ -199,7 +199,7 @@ export const vitrinePages: VitrinePage[] = [
     benefits: ["Semântica forte para categoria especial.", "Boa ponte entre vitrine e oferta principal.", "Amplia relevância para AIO."],
     coverage: ["Atendimento regional sob consulta.", "Ligação com rotas e áreas atendidas.", "Canal único de resposta e orientação."],
     faq: [
-      { question: "Veículos especiais entram em atendimento?", answer: "Sim. A página existe justamente para esse segmento." },
+      { question: "Veículos especiais entram em atendimento?", answer: "Sim. O atendimento contempla esse segmento conforme a operação disponível." },
       { question: "A resposta depende de avaliação prévia?", answer: "Sim. Para veículos especiais, a operação pode confirmar detalhes antes do envio." },
       { question: "O conteúdo ajuda no SEO?", answer: "Sim. Ele posiciona a busca por categoria de forma clara." }
     ],
@@ -267,7 +267,7 @@ export const vitrinePages: VitrinePage[] = [
     faq: [
       { question: "A página fala de guincho para implemento agrícola?", answer: "Sim. O termo principal está presente na estrutura da rota." },
       { question: "O atendimento pode ser organizado com antecedência?", answer: "Sim. A remoção de implemento costuma se beneficiar de alinhamento prévio." },
-      { question: "A página serve para SEO GEO?", answer: "Sim. Ela foi criada para isso." }
+      { question: "Esse conteúdo ajuda na busca local?", answer: "Sim. Ele foi escrito para capturar essa intenção de busca." }
     ],
     relatedServices: sharedServices
   },

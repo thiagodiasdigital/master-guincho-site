@@ -34,7 +34,7 @@ export const routePages: RoutePage[] = [
     slug: "ituiutaba",
     title: "Ituiutaba",
     shortTitle: "Cidade base",
-    intro: "Página principal da cobertura e da leitura local da Master Guincho.",
+    intro: "Ituiutaba é a cidade-base da Master Guincho e concentra a leitura principal da cobertura.",
     routeSummary:
       "Ituiutaba é a cidade-base da operação, o que permite orientar o visitante de forma rápida quando ele busca um guincho ou auto socorro com resposta imediata.",
     demand: [
@@ -58,7 +58,7 @@ export const routePages: RoutePage[] = [
     faq: [
       {
         question: "Ituiutaba é a cidade-base da operação?",
-        answer: "Sim. A operação parte de Ituiutaba e a página serve como ponto central da cobertura local."
+        answer: "Sim. A operação parte de Ituiutaba e a cobertura local se organiza a partir da cidade."
       },
       {
         question: "A página pode receber dados de tempo de resposta?",
@@ -106,7 +106,7 @@ export const routePages: RoutePage[] = [
     slug: "gurinhata",
     title: "Gurinhatã",
     shortTitle: "Gurinhatã",
-    intro: "Página para segmentar a cobertura em uma cidade de apoio da região.",
+    intro: "Gurinhatã faz parte da cobertura regional da Master Guincho e pode receber atendimento conforme disponibilidade.",
     routeSummary:
       "Gurinhatã funciona como página de cobertura local para orientar o visitante que precisa de guincho, reboque ou auto socorro com rapidez.",
     demand: [
@@ -129,8 +129,8 @@ export const routePages: RoutePage[] = [
     references: [],
     faq: [
       {
-        question: "Essa página serve para busca local?",
-        answer: "Sim. Ela foi pensada para ser encontrada por quem procura atendimento na cidade."
+        question: "Gurinhatã pode receber atendimento?",
+        answer: "Sim. A cidade integra a cobertura regional e o atendimento depende da disponibilidade operacional."
       }
     ]
   },
@@ -166,7 +166,7 @@ export const routePages: RoutePage[] = [
     slug: "ipiacu",
     title: "Ipiaçu",
     shortTitle: "Ipiaçu",
-    intro: "Página de apoio para busca local e atendimento rápido na cidade.",
+    intro: "Ipiaçu integra a cobertura regional da Master Guincho para ocorrências locais e rodoviárias.",
     routeSummary:
       "Ipiaçu representa um ponto de cobertura útil para captar demanda local e conectar a operação com o contato mais rápido possível.",
     demand: ["Pane na cidade", "Remoção de veículo", "Socorro sob demanda"],
@@ -360,7 +360,7 @@ export const routePages: RoutePage[] = [
     slug: "uberlandia",
     title: "Uberlândia",
     shortTitle: "Uberlândia",
-    intro: "Página de apoio para ampliar a cobertura geográfica e captar buscas por cidade.",
+    intro: "Uberlândia integra a cobertura regional da Master Guincho conforme disponibilidade da operação.",
     routeSummary:
       "Uberlândia entra como cidade de cobertura ampliada, importante para busca local e para reforçar a autoridade regional da Master Guincho.",
     demand: ["Transporte de veículo", "Atendimento sob demanda", "Socorro na cidade ou rodovia"],
@@ -384,7 +384,7 @@ export const routePages: RoutePage[] = [
     slug: "arapora",
     title: "Araporã",
     shortTitle: "Araporã",
-    intro: "Página de prioridade geo para resposta imediata e contexto de rodovia.",
+    intro: "Araporã faz parte da cobertura regional da Master Guincho com foco em atendimento rápido.",
     routeSummary:
       "Araporã recebe destaque especial porque a leitura local depende de hiperlocalismo, resposta imediata e contexto de acesso rápido para quem está parado e precisa de ajuda agora.",
     demand: [
