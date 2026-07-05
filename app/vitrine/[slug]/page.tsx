@@ -112,7 +112,7 @@ export default async function VitrineDetailPage({ params }: PageProps) {
           {
             "@type": "ListItem",
             position: 1,
-            name: "Inicio",
+            name: "Início",
             item: siteConfigTemplate.siteUrl
           },
           {
@@ -145,7 +145,7 @@ export default async function VitrineDetailPage({ params }: PageProps) {
             <div>
               <div className="flex flex-wrap gap-4 text-sm font-black uppercase">
                 <Link href="/" className="text-brand-gold transition hover:text-white">
-                  Inicio
+                  Início
                 </Link>
                 <Link href="/vitrine/" className="text-brand-gold transition hover:text-white">
                   Vitrine
@@ -171,7 +171,7 @@ export default async function VitrineDetailPage({ params }: PageProps) {
                   href="/servicos/"
                   className="rounded-md border border-white/50 px-7 py-4 text-center text-sm font-black uppercase text-white transition hover:bg-white hover:text-brand-deep focus:outline-none focus:ring-4 focus:ring-white/25"
                 >
-                  Ver servicos
+                  Ver serviços
                 </Link>
               </div>
             </div>
@@ -192,10 +192,10 @@ export default async function VitrineDetailPage({ params }: PageProps) {
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Definicao
+                Definição
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                {page.shortTitle} com foco em conversao
+                {page.shortTitle} com foco em conversão
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
@@ -224,7 +224,7 @@ export default async function VitrineDetailPage({ params }: PageProps) {
               </ul>
             </article>
             <article className="rounded-lg bg-white p-6 shadow-soft">
-              <h2 className="text-2xl font-black text-brand-deep">Beneficios</h2>
+              <h2 className="text-2xl font-black text-brand-deep">Benefícios</h2>
               <ul className="mt-5 grid gap-3 leading-7 text-slate-700">
                 {page.benefits.map((item) => (
                   <li key={item}>{item}</li>
@@ -241,7 +241,7 @@ export default async function VitrineDetailPage({ params }: PageProps) {
                 Cobertura
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Contexto geografico e local
+                Contexto geográfico e local
               </h2>
               <div className="mt-8 grid gap-3">
                 {page.coverage.map((item) => (
@@ -253,7 +253,7 @@ export default async function VitrineDetailPage({ params }: PageProps) {
             </div>
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Servicos relacionados
+                Serviços relacionados
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
                 Conecte a vitrine com a oferta principal

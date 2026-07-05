@@ -56,35 +56,35 @@ export const routePages: RoutePage[] = [
     references: [],
     faq: [
       {
-        question: "Ituiutaba e a cidade-base da operacao?",
+        question: "Ituiutaba é a cidade-base da operação?",
         answer: "Sim. A operação parte de Ituiutaba e a página serve como ponto central da cobertura local."
       },
       {
         question: "A página pode receber dados de tempo de resposta?",
-        answer: "Pode, desde que a informacao seja confirmada e mantida atualizada."
+        answer: "Pode, desde que a informação seja confirmada e mantida atualizada."
       }
     ]
   },
   {
     slug: "capinopolis",
-    title: "Capinopolis",
-    shortTitle: "Capinopolis",
-    intro: "Cobertura regional com resposta direta para ocorrencias urbanas e rodoviarias.",
+    title: "Capinópolis",
+    shortTitle: "Capinópolis",
+    intro: "Cobertura regional com resposta direta para ocorrências urbanas e rodoviárias.",
     routeSummary:
-      "Capinopolis entra como cidade de apoio na estrategia de cobertura, servindo para quem precisa de atendimento rapido sem perder o contexto local.",
+      "Capinópolis entra como cidade de apoio na estratégia de cobertura, servindo para quem precisa de atendimento rápido sem perder o contexto local.",
     demand: [
-      "Veiculo parado na cidade.",
-      "Remocao por pane ou sinistro.",
+      "Veículo parado na cidade.",
+      "Remoção por pane ou sinistro.",
       "Atendimento para demandas urgentes."
     ],
     serviceFit: ["Guincho 24h", "Auto socorro"],
     coverage: [
       "Cidade atendida pela cobertura regional.",
       "Pode representar busca por cidade + guincho.",
-      "Boa para leads que precisam de resposta rapida."
+      "Boa para leads que precisam de resposta rápida."
     ],
     operationalNotes: [
-      "Use linguagem objetiva e de contato rapido.",
+      "Use linguagem objetiva e de contato rápido.",
       "Mantenha a página curta e focada.",
       "Conecte sempre ao WhatsApp."
     ],
@@ -92,26 +92,26 @@ export const routePages: RoutePage[] = [
     references: [],
     faq: [
       {
-        question: "Capinopolis esta dentro da cobertura?",
-        answer: "Sim. A cidade faz parte da area atendida da Master Guincho."
+        question: "Capinópolis está dentro da cobertura?",
+        answer: "Sim. A cidade faz parte da área atendida da Master Guincho."
       },
       {
         question: "A página deve priorizar urgência?",
-        answer: "Sim. Para auto socorro, o foco e reduzir o tempo ate o contato."
+        answer: "Sim. Para auto socorro, o foco é reduzir o tempo até o contato."
       }
     ]
   },
   {
     slug: "gurinhata",
-    title: "Gurinhata",
-    shortTitle: "Gurinhata",
-    intro: "Pagina para segmentar a cobertura em uma cidade de apoio da regiao.",
+    title: "Gurinhatã",
+    shortTitle: "Gurinhatã",
+    intro: "Página para segmentar a cobertura em uma cidade de apoio da região.",
     routeSummary:
-      "Gurinhatá funciona como página de cobertura local para orientar o visitante que precisa de guincho, reboque ou auto socorro com rapidez.",
+      "Gurinhatã funciona como página de cobertura local para orientar o visitante que precisa de guincho, reboque ou auto socorro com rapidez.",
     demand: [
       "Atendimento emergencial na cidade.",
-      "Retirada de veiculo sem rodar.",
-      "Contato rapido por WhatsApp."
+      "Retirada de veículo sem rodar.",
+      "Contato rápido por WhatsApp."
     ],
     serviceFit: ["Guincho 24h", "Reboque 24h"],
     coverage: [
@@ -135,191 +135,281 @@ export const routePages: RoutePage[] = [
   },
   {
     slug: "canapolis",
-    title: "Canapolis",
-    shortTitle: "Canapolis",
-    intro: "Cobertura regional para demandas locais e deslocamentos programados.",
+    title: "Canápolis",
+    shortTitle: "Canápolis",
+    intro: "Cobertura regional com resposta direta para demandas da cidade.",
     routeSummary:
-      "Canapolis entra como cidade atendida no eixo regional, reforcando a cobertura da Master Guincho para quem precisa de ajuda rapida.",
+      "Canápolis entra como cidade atendida no eixo regional, reforçando a cobertura da Master Guincho para quem precisa de ajuda rápida.",
     demand: [
-      "Veiculo imobilizado.",
-      "Atendimento em horario flexivel.",
-      "Retirada para oficina ou destino combinado."
+      "Veículo parado na cidade.",
+      "Solicitação rápida.",
+      "Retirada segura."
     ],
     serviceFit: ["Guincho 24h", "Reboque 24h"],
-    coverage: ["Cidade atendida na regiao", "Cobertura operacional regional", "Resposta via WhatsApp"],
-    operationalNotes: ["Pagina curta e objetiva.", "Boa para trafego geo.", "Use prova visual da frota quando houver."],
+    coverage: ["Cidade atendida na região", "Cobertura operacional regional", "Resposta via WhatsApp"],
+    operationalNotes: [
+      "Use linguagem objetiva e de contato rápido.",
+      "Mantenha a página curta e focada.",
+      "Conecte sempre ao WhatsApp."
+    ],
     relatedServices: [baseServices[0], baseServices[1]],
     references: [],
-    faq: [{ question: "Canapolis faz parte da cobertura?", answer: "Sim, a cidade esta incluida na area de atendimento." }]
+    faq: [
+      {
+        question: "Canápolis está dentro da cobertura?",
+        answer: "Sim. A cidade faz parte da área atendida da Master Guincho."
+      }
+    ]
   },
   {
     slug: "ipiacu",
-    title: "Ipiacu",
-    shortTitle: "Ipiacu",
-    intro: "Pagina local para atender buscas por guincho e socorro na cidade.",
+    title: "Ipiaçu",
+    shortTitle: "Ipiaçu",
+    intro: "Página de apoio para busca local e atendimento rápido na cidade.",
     routeSummary:
-      "Ipiacu representa um ponto de cobertura util para captar demanda local e conectar a operacao com o contato mais rapido possivel.",
-    demand: ["Pane na cidade", "Remocao de veiculo", "Socorro sob demanda"],
+      "Ipiaçu representa um ponto de cobertura útil para captar demanda local e conectar a operação com o contato mais rápido possível.",
+    demand: ["Pane na cidade", "Remoção de veículo", "Socorro sob demanda"],
     serviceFit: ["Auto socorro", "Guincho 24h"],
-    coverage: ["Cobertura regional", "Atendimento local", "Conexao com cidades vizinhas"],
-    operationalNotes: ["Mantenha a pagina enxuta.", "Priorize CTA e telefone.", "Use linguagem direta."],
+    coverage: ["Cobertura regional", "Atendimento local", "Conexão com cidades vizinhas"],
+    operationalNotes: [
+      "Mantenha a página enxuta.",
+      "Priorize CTA e telefone.",
+      "Use linguagem direta."
+    ],
     relatedServices: [baseServices[2], baseServices[0]],
     references: [],
-    faq: [{ question: "Ipiacu e atendida?", answer: "Sim. A cidade entra na cobertura regional da Master Guincho." }]
+    faq: [
+      {
+        question: "Ipiaçu está na cobertura?",
+        answer: "Sim. A cidade integra a cobertura regional da Master Guincho."
+      }
+    ]
   },
   {
     slug: "cachoeira-dourada-mg",
     title: "Cachoeira Dourada MG",
     shortTitle: "Cachoeira Dourada",
-    intro: "Pagina de cobertura do lado mineiro para busca local e acionamento rapido.",
+    intro: "Página de cobertura do lado mineiro para busca local e acionamento rápido.",
     routeSummary:
-      "Cachoeira Dourada MG ajuda a distribuir melhor a presenca geo da Master Guincho na regiao e reforca a leitura por cidade.",
-    demand: ["Atendimento local", "Remocao urgente", "Apoio rodoviario"],
+      "Cachoeira Dourada MG ajuda a distribuir melhor a presença geo da Master Guincho na região e reforça a leitura por cidade.",
+    demand: ["Atendimento local", "Remoção urgente", "Apoio rodoviário"],
     serviceFit: ["Guincho 24h", "Auto socorro"],
     coverage: ["Cidade mineira atendida", "Cobertura regional", "Resposta pelo WhatsApp"],
-    operationalNotes: ["Boa para consultas de proximidade.", "Pode receber fotos de operacao.", "Use sempre o nome sem abreviar em excesso."],
+    operationalNotes: [
+      "Boa para consultas de proximidade.",
+      "Pode receber fotos de operação.",
+      "Use sempre o nome completo."
+    ],
     relatedServices: [baseServices[0], baseServices[2]],
     references: [],
-    faq: [{ question: "Existe cobertura em MG?", answer: "Sim. Cachoeira Dourada MG faz parte da cobertura informada." }]
+    faq: [
+      {
+        question: "Existe cobertura em MG?",
+        answer: "Sim. Cachoeira Dourada MG faz parte da cobertura informada."
+      }
+    ]
   },
   {
     slug: "santa-vitoria",
-    title: "Santa Vitoria",
-    shortTitle: "Santa Vitoria",
-    intro: "Pagina util para posicionar a cobertura em outra cidade do entorno.",
+    title: "Santa Vitória",
+    shortTitle: "Santa Vitória",
+    intro: "Cobertura para demandas da cidade e do entorno.",
     routeSummary:
-      "Santa Vitoria amplia a base geo do site, ajudando a cobrir consultas de proximidade e reforcando a autoridade local.",
-    demand: ["Veiculo parado", "Solicitacao rapida", "Retirada segura"],
+      "Santa Vitória amplia a base geo do site, ajudando a cobrir consultas de proximidade e reforçando a autoridade local.",
+    demand: ["Veículo parado", "Solicitação rápida", "Retirada segura"],
     serviceFit: ["Guincho 24h", "Reboque 24h"],
-    coverage: ["Cidade atendida", "Cobertura regional", "Atendimento sob demanda"],
-    operationalNotes: ["Texto direto e sem exagero.", "Foque em mobilidade e resposta.", "Conecte com o WhatsApp."],
+    coverage: ["Cidade atendida", "Cobertura em demanda", "Resposta via WhatsApp"],
+    operationalNotes: [
+      "Texto direto e sem exagero.",
+      "Foque em mobilidade e resposta.",
+      "Conecte com o WhatsApp."
+    ],
     relatedServices: [baseServices[0], baseServices[1]],
     references: [],
-    faq: [{ question: "Santa Vitoria esta na cobertura?", answer: "Sim. A cidade integra a lista de cobertura regional." }]
+    faq: [
+      {
+        question: "Santa Vitória está na cobertura?",
+        answer: "Sim. A cidade integra a lista de cobertura regional."
+      }
+    ]
   },
   {
     slug: "monte-alegre-de-minas",
     title: "Monte Alegre de Minas",
     shortTitle: "Monte Alegre",
-    intro: "Cobertura para buscas de atendimento rapido na cidade e entorno.",
+    intro: "Cobertura para buscas de atendimento rápido na cidade e entorno.",
     routeSummary:
-      "A pagina de Monte Alegre de Minas reforca a leitura local do site e ajuda o visitante a encontrar a Master Guincho por cidade.",
-    demand: ["Atendimento urgente", "Transporte de veiculo", "Contato por WhatsApp"],
+      "A página de Monte Alegre de Minas reforça a leitura local do site e ajuda o visitante a encontrar a Master Guincho por cidade.",
+    demand: ["Atendimento urgente", "Transporte de veículo", "Contato por WhatsApp"],
     serviceFit: ["Auto socorro", "Guincho 24h"],
     coverage: ["Cidade atendida", "Eixo regional", "Prioridade de resposta"],
-    operationalNotes: ["Pode destacar rotas de acesso quando confirmadas.", "Mantenha CTA curto.", "Use schema de pagina local."],
+    operationalNotes: [
+      "Pode destacar rotas de acesso quando confirmadas.",
+      "Mantenha CTA curto.",
+      "Use schema de página local."
+    ],
     relatedServices: [baseServices[2], baseServices[0]],
     references: [],
-    faq: [{ question: "A cidade entra no raio?", answer: "Sim, ela foi incluida na cobertura listada." }]
+    faq: [
+      {
+        question: "A cidade entra no raio?",
+        answer: "Sim, ela foi incluída na cobertura listada."
+      }
+    ]
   },
   {
     slug: "campina-verde",
     title: "Campina Verde",
     shortTitle: "Campina Verde",
-    intro: "Cidade de cobertura para demandas locais e regionais.",
+    intro: "Cobertura para demandas locais e regionais.",
     routeSummary:
-      "Campina Verde amplia a presenca da Master Guincho em buscas geo e ajuda a conectar a oferta principal com a cidade.",
+      "Campina Verde amplia a presença da Master Guincho em buscas geo e ajuda a conectar a oferta principal com a cidade.",
     demand: ["Guincho urgente", "Reboque programado", "Socorro em estrada"],
     serviceFit: ["Guincho 24h", "Reboque 24h"],
     coverage: ["Cidade atendida", "Cobertura em demanda", "Resposta via WhatsApp"],
-    operationalNotes: ["Use pagina com foco local.", "Adicione fotos se houver.", "Priorize o contato rapido."],
+    operationalNotes: [
+      "Use página com foco local.",
+      "Adicione fotos se houver.",
+      "Priorize o contato rápido."
+    ],
     relatedServices: [baseServices[0], baseServices[1]],
     references: [],
-    faq: [{ question: "Campina Verde e atendida?", answer: "Sim, dentro da area informada pela operacao." }]
+    faq: [
+      {
+        question: "Campina Verde está atendida?",
+        answer: "Sim, dentro da área informada pela operação."
+      }
+    ]
   },
   {
     slug: "cachoeira-dourada-go",
     title: "Cachoeira Dourada GO",
     shortTitle: "Cachoeira GO",
-    intro: "Cobertura do lado goiano para reforcar a area atendida.",
+    intro: "Cobertura do lado goiano para reforçar a área atendida.",
     routeSummary:
-      "A cidade entra como ponto de cobertura para consultas por localidade e para deixar mais clara a abrangencia regional da Master Guincho.",
-    demand: ["Ocorrencia local", "Atendimento rapido", "Deslocamento seguro"],
+      "A cidade entra como ponto de cobertura para consultas por localidade e para deixar mais clara a abrangência regional da Master Guincho.",
+    demand: ["Ocorrência local", "Atendimento rápido", "Deslocamento seguro"],
     serviceFit: ["Guincho 24h", "Auto socorro"],
     coverage: ["Cidade em GO", "Cobertura regional", "Atendimento sob demanda"],
-    operationalNotes: ["Use o nome completo com UF.", "Evite promessas de tempo se nao confirmado.", "Mantenha CTA sempre visivel."],
+    operationalNotes: [
+      "Use o nome completo com UF.",
+      "Evite promessas de tempo se não confirmadas.",
+      "Mantenha CTA sempre visível."
+    ],
     relatedServices: [baseServices[0], baseServices[2]],
     references: [],
-    faq: [{ question: "A cidade goiana esta coberta?", answer: "Sim. Cachoeira Dourada GO foi incluida na cobertura." }]
+    faq: [
+      {
+        question: "A cidade goiana está coberta?",
+        answer: "Sim. Cachoeira Dourada GO foi incluída na cobertura."
+      }
+    ]
   },
   {
     slug: "inaciolandia",
-    title: "Inaciolandia",
-    shortTitle: "Inaciolandia",
-    intro: "Pagina regional para captacao local e atendimento de urgencia.",
+    title: "Inaciolândia",
+    shortTitle: "Inaciolândia",
+    intro: "Página regional para captação local e atendimento de urgência.",
     routeSummary:
-      "Inaciolandia serve para reforcar a capilaridade geo da Master Guincho e dar saida util para buscas por cidade.",
-    demand: ["Guincho local", "Socorro rapido", "Transporte para destino combinado"],
+      "Inaciolândia serve para reforçar a capilaridade geo da Master Guincho e dar saída útil para buscas por cidade.",
+    demand: ["Guincho local", "Socorro rápido", "Transporte para destino combinado"],
     serviceFit: ["Auto socorro", "Guincho 24h"],
     coverage: ["Cidade atendida", "Cobertura regional", "Resposta direta"],
-    operationalNotes: ["Boa pagina para buscas de proximidade.", "Use texto curto e objetivo.", "Mantenha o CTA para WhatsApp."],
+    operationalNotes: [
+      "Boa página para buscas de proximidade.",
+      "Use texto curto e objetivo.",
+      "Mantenha o CTA para WhatsApp."
+    ],
     relatedServices: [baseServices[2], baseServices[0]],
     references: [],
-    faq: [{ question: "Inaciolandia esta na cobertura?", answer: "Sim. Ela integra a lista de cidades atendidas." }]
+    faq: [
+      {
+        question: "Inaciolândia está na cobertura?",
+        answer: "Sim. Ela integra a lista de cidades atendidas."
+      }
+    ]
   },
   {
     slug: "itumbiara",
     title: "Itumbiara",
     shortTitle: "Itumbiara",
-    intro: "Cidade estrategica para cobertura regional e busca por socorro rapido.",
+    intro: "Cidade estratégica para cobertura regional e busca por socorro rápido.",
     routeSummary:
       "Itumbiara tem peso importante na cobertura regional e ajuda a distribuir a autoridade do site em uma cidade relevante do entorno.",
-    demand: ["Atendimento urgente", "Remocao segura", "Guincho para ida e volta"],
+    demand: ["Atendimento urgente", "Remoção segura", "Guincho para ida e volta"],
     serviceFit: ["Guincho 24h", "Reboque 24h", "Auto socorro"],
-    coverage: ["Cidade atendida", "Area estrategica", "Conexao regional"],
-    operationalNotes: ["Pode receber interlink com Arapora.", "Use linguagem de cobertura real.", "Mantenha a pagina atualizada."],
+    coverage: ["Cidade atendida", "Área estratégica", "Conexão regional"],
+    operationalNotes: [
+      "Pode receber interlink com Araporã.",
+      "Use linguagem de cobertura real.",
+      "Mantenha a página atualizada."
+    ],
     relatedServices: [baseServices[0], baseServices[1]],
     references: [],
-    faq: [{ question: "Itumbiara esta coberta?", answer: "Sim. A cidade faz parte da cobertura regional da operacao." }]
+    faq: [
+      {
+        question: "Itumbiara está coberta?",
+        answer: "Sim. A cidade faz parte da cobertura regional da operação."
+      }
+    ]
   },
   {
     slug: "uberlandia",
-    title: "Uberlandia",
-    shortTitle: "Uberlandia",
-    intro: "Pagina de apoio para ampliar a cobertura geograficamente e captar buscas por cidade.",
+    title: "Uberlândia",
+    shortTitle: "Uberlândia",
+    intro: "Página de apoio para ampliar a cobertura geográfica e captar buscas por cidade.",
     routeSummary:
-      "Uberlandia entra como cidade de cobertura ampliada, importante para busca local e para reforcar a autoridade regional da Master Guincho.",
-    demand: ["Transporte de veiculo", "Atendimento sob demanda", "Socorro na cidade ou rodovia"],
+      "Uberlândia entra como cidade de cobertura ampliada, importante para busca local e para reforçar a autoridade regional da Master Guincho.",
+    demand: ["Transporte de veículo", "Atendimento sob demanda", "Socorro na cidade ou rodovia"],
     serviceFit: ["Guincho 24h", "Auto socorro"],
-    coverage: ["Cidade atendida", "Cobertura expandida", "Acionamento rapido"],
-    operationalNotes: ["Mantenha a pagina consistente com a cobertura real.", "Evite informações nao confirmadas.", "Use CTA forte."],
+    coverage: ["Cidade atendida", "Cobertura expandida", "Acionamento rápido"],
+    operationalNotes: [
+      "Mantenha a página consistente com a cobertura real.",
+      "Evite informações não confirmadas.",
+      "Use CTA forte."
+    ],
     relatedServices: [baseServices[0], baseServices[2]],
     references: [],
-    faq: [{ question: "Uberlandia faz parte da cobertura?", answer: "Sim. A pagina foi criada para representar a cobertura ampliada." }]
+    faq: [
+      {
+        question: "Uberlândia faz parte da cobertura?",
+        answer: "Sim. A página foi criada para representar a cobertura ampliada."
+      }
+    ]
   },
   {
     slug: "arapora",
-    title: "Arapora",
-    shortTitle: "Arapora",
-    intro: "Pagina de prioridade geo para resposta imediata e contexto de rodovia.",
+    title: "Araporã",
+    shortTitle: "Araporã",
+    intro: "Página de prioridade geo para resposta imediata e contexto de rodovia.",
     routeSummary:
-      "Arapora recebe destaque especial porque a leitura local depende de hiperlocalismo, resposta imediata e contexto de acesso rapido para quem esta parado e precisa de ajuda agora.",
+      "Araporã recebe destaque especial porque a leitura local depende de hiperlocalismo, resposta imediata e contexto de acesso rápido para quem está parado e precisa de ajuda agora.",
     demand: [
-      "Ocorrencia urgente com necessidade de resposta curta.",
-      "Atendimento em trecho rodoviario ou acesso da cidade.",
-      "Contato rapido via WhatsApp com foco em disponibilidade."
+      "Ocorrência urgente com necessidade de resposta curta.",
+      "Atendimento em trecho rodoviário ou acesso da cidade.",
+      "Contato rápido via WhatsApp com foco em disponibilidade."
     ],
     serviceFit: ["Guincho 24h", "Auto socorro", "Reboque 24h"],
     coverage: [
       "Cidade de prioridade geo.",
-      "Cobertura com foco em urgencia.",
-      "Pagina pensada para busca imediata."
+      "Cobertura com foco em urgência.",
+      "Página pensada para busca imediata."
     ],
     operationalNotes: [
-      "Mantenha esta pagina mais forte do que as demais.",
-      "Inclua provas, fotos e sinais de operação quando possivel.",
+      "Mantenha esta página mais forte do que as demais.",
+      "Inclua provas, fotos e sinais de operação quando possível.",
       "Se houver tempo de resposta real confirmado, ele pode ser citado."
     ],
     relatedServices: [baseServices[0], baseServices[2]],
     references: [],
     faq: [
       {
-        question: "Arapora tem pagina propria por prioridade geo?",
-        answer: "Sim. A pagina foi pensada para receber destaque por causa da intencao de busca imediata."
+        question: "Araporã tem página própria por prioridade geo?",
+        answer: "Sim. A página foi pensada para receber destaque por causa da intenção de busca imediata."
       },
       {
-        question: "Essa pagina deve ser curta e direta?",
-        answer: "Sim. Em contexto de urgencia, o usuario precisa encontrar contato e resposta sem ruído."
+        question: "Essa página deve ser curta e direta?",
+        answer: "Sim. Em contexto de urgência, o usuário precisa encontrar contato e resposta sem ruído."
       }
     ]
   }

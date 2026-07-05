@@ -76,7 +76,7 @@ export default function RoutesPage() {
         <section className="bg-brand-deep px-4 pb-20 pt-28 text-white md:px-8">
           <div className="mx-auto max-w-7xl">
             <Link href="/" className="text-sm font-black uppercase text-brand-gold transition hover:text-white">
-              Voltar para inicio
+              Voltar para início
             </Link>
             <p className="mt-10 text-sm font-black uppercase tracking-[0.18em] text-brand-gold">
               {locationsDataTemplate.section.eyebrow}
@@ -98,7 +98,7 @@ export default function RoutesPage() {
                 href="/servicos/"
                 className="rounded-md border border-white/50 px-7 py-4 text-center text-sm font-black uppercase text-white transition hover:bg-white hover:text-brand-deep focus:outline-none focus:ring-4 focus:ring-white/25"
               >
-                Ver servicos
+                Ver serviços
               </Link>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function RoutesPage() {
                   href={`/rotas/${route.slug}/`}
                   className="mt-6 inline-flex rounded-md bg-brand-deep px-5 py-3 text-sm font-black uppercase text-white transition hover:bg-brand-blue focus:outline-none focus:ring-4 focus:ring-brand-blue/25"
                 >
-                  Ver pagina
+                  Ver página
                 </Link>
               </article>
             ))}

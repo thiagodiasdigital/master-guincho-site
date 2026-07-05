@@ -22,48 +22,49 @@ export const servicePages: ServicePage[] = [
     title: "Guincho 24h",
     shortTitle: "Guincho",
     summary:
-      "Remocao rapida para carros, motos, caminhonetes, vans e utilitarios com atendimento 24 horas.",
+      "Remoção rápida para carros, motos, caminhonetes, vans e utilitários com atendimento 24 horas.",
     intro:
-      "Pagina para explicar o guincho como servico principal da Master Guincho, com foco em resposta imediata, seguranca e orientacao clara para o cliente parado na estrada ou na cidade.",
+      "Página do guincho 24h da Master Guincho para quem precisa de atendimento imediato em Ituiutaba e região.",
     definition:
-      "Guincho 24h e o servico de retirada e transporte de veiculos com acionamento rapido, usado em panes, colisões, problemas mecanicos e deslocamentos emergenciais.",
+      "Guincho 24h é o serviço de retirada e transporte de veículos com acionamento rápido, usado em panes, colisões, problemas mecânicos e deslocamentos emergenciais.",
     idealFor: [
       "Motoristas com pane ou bateria descarregada.",
-      "Empresas que precisam mover veiculos com rapidez.",
-      "Ocorrencias em rodovia, bairro ou area urbana."
+      "Empresas que precisam mover veículos com rapidez.",
+      "Ocorrências em rodovia, bairro ou área urbana."
     ],
     whenToHire: [
-      "Quando o veiculo nao pode seguir rodando com seguranca.",
-      "Quando a ocorrencia exige remocao imediata.",
-      "Quando o cliente precisa de contato rapido por WhatsApp."
+      "Quando o veículo não pode seguir rodando com segurança.",
+      "Quando a ocorrência exige remoção imediata.",
+      "Quando o cliente precisa de contato rápido por WhatsApp."
     ],
     deliverables: [
-      "Acionamento do guincho com orientacao inicial.",
-      "Transporte do veiculo para o destino combinado.",
-      "Atendimento direto e objetivo durante a ocorrencia."
+      "Acionamento do guincho com orientação inicial.",
+      "Transporte do veículo para o destino combinado.",
+      "Atendimento direto e objetivo durante a ocorrência."
     ],
     processSteps: [
-      "Recebimento do local e do tipo de veiculo.",
-      "Confirmacao da necessidade e do destino.",
-      "Deslocamento da equipe ate o ponto informado."
+      "Recebimento do local e do tipo de veículo.",
+      "Confirmação da necessidade e do destino.",
+      "Deslocamento da equipe até o ponto informado."
     ],
     coverage: [
       "Atendimento em Ituiutaba e cidades vizinhas.",
-      "Cobertura para ocorrencias na cidade e na rodovia.",
-      "Operacao adequada para resposta 24h."
+      "Cobertura para ocorrências na cidade e na rodovia.",
+      "Operação adequada para resposta 24h."
     ],
     faq: [
       {
-        question: "O guincho atende carros leves e utilitarios?",
-        answer: "Sim. O servico foi pensado para carros, utilitarios, caminhonetes e outras ocorrencias comuns da rotina local."
+        question: "O guincho atende carros leves e utilitários?",
+        answer:
+          "Sim. O serviço foi pensado para carros, utilitários, caminhonetes e outras ocorrências comuns da rotina local."
       },
       {
         question: "Posso chamar o guincho pelo WhatsApp?",
-        answer: "Sim. O WhatsApp e o canal mais rapido para acionar a equipe e informar a localizacao."
+        answer: "Sim. O WhatsApp é o canal mais rápido para acionar a equipe e informar a localização."
       },
       {
-        question: "O atendimento e realmente 24h?",
-        answer: "Sim. A operacao trabalha em regime de 24 horas para ocorrencias urgentes e deslocamentos sob demanda."
+        question: "O atendimento é realmente 24h?",
+        answer: "Sim. A operação trabalha em regime de 24 horas para ocorrências urgentes e deslocamentos sob demanda."
       }
     ]
   },
@@ -72,48 +73,48 @@ export const servicePages: ServicePage[] = [
     title: "Reboque 24h",
     shortTitle: "Reboque",
     summary:
-      "Transporte de veiculos com suporte para pane, sinistro, deslocamento programado e necessidade de retirada segura.",
+      "Transporte de veículos com suporte para pane, sinistro, deslocamento programado e necessidade de retirada segura.",
     intro:
-      "Página dedicada ao reboque como solução de transporte seguro para veículos que precisam ser deslocados sem rodar por conta própria.",
+      "Página do reboque 24h para explicar o serviço como solução de transporte seguro para veículos que não podem rodar por conta própria.",
     definition:
-      "Reboque e o servico de transporte de veiculo por equipamento adequado, com foco em seguranca, preservacao do bem e agilidade na retirada.",
+      "Reboque é o serviço de transporte de veículo por equipamento adequado, com foco em segurança, preservação do bem e agilidade na retirada.",
     idealFor: [
-      "Veiculos com falha mecanica ou impossibilidade de rodagem.",
+      "Veículos com falha mecânica ou impossibilidade de rodagem.",
       "Situações de sinistro ou avaria.",
       "Empresas e particulares que precisam de transporte seguro."
     ],
     whenToHire: [
-      "Quando o veiculo precisa sair do local com urgencia.",
-      "Quando a seguranca exige transporte por reboque.",
-      "Quando o cliente quer combinar retirada e destino com antecedencia."
+      "Quando o veículo precisa sair do local com urgência.",
+      "Quando a segurança exige transporte por reboque.",
+      "Quando o cliente quer combinar retirada e destino com antecedência."
     ],
     deliverables: [
-      "Retirada do veiculo com orientacao inicial.",
-      "Transporte ate oficina, base, residencia ou local combinado.",
-      "Atendimento com foco em preservacao e previsibilidade."
+      "Retirada do veículo com orientação inicial.",
+      "Transporte até oficina, base, residência ou local combinado.",
+      "Atendimento com foco em preservação e previsibilidade."
     ],
     processSteps: [
-      "Coleta das informacoes do veiculo e do local.",
-      "Avaliacao da melhor forma de remocao.",
-      "Execucao do transporte ate o destino acordado."
+      "Coleta das informações do veículo e do local.",
+      "Avaliação da melhor forma de remoção.",
+      "Execução do transporte até o destino acordado."
     ],
     coverage: [
       "Ideal para cobertura regional e deslocamentos entre cidades.",
       "Pode ser usado em resposta a pane, sinistro e deslocamento.",
-      "Compatível com demandas urbanas e rodoviarias."
+      "Compatível com demandas urbanas e rodoviárias."
     ],
     faq: [
       {
-        question: "Reboque e o mesmo que guincho?",
-        answer: "Na pratica, os dois servicos se complementam. Aqui o foco e a remocao e o transporte seguro do veiculo."
+        question: "Reboque é o mesmo que guincho?",
+        answer: "Na prática, os dois serviços se complementam. Aqui o foco é a remoção e o transporte seguro do veículo."
       },
       {
         question: "O reboque serve para sinistro?",
-        answer: "Sim. E uma das aplicacoes mais comuns quando o veiculo nao pode seguir por meios proprios."
+        answer: "Sim. É uma das aplicações mais comuns quando o veículo não pode seguir por meios próprios."
       },
       {
         question: "A equipe informa o destino antes de sair?",
-        answer: "Sim. O ideal e combinar local de entrega e contexto da ocorrencia antes do deslocamento."
+        answer: "Sim. O ideal é combinar local de entrega e contexto da ocorrência antes do deslocamento."
       }
     ]
   },
@@ -122,64 +123,64 @@ export const servicePages: ServicePage[] = [
     title: "Auto socorro",
     shortTitle: "Socorro",
     summary:
-      "Assistencia emergencial na estrada e na cidade para reduzir tempo de espera e resolver a ocorrencia com rapidez.",
+      "Assistência emergencial na estrada e na cidade para reduzir tempo de espera e resolver a ocorrência com rapidez.",
     intro:
-      "Pagina voltada ao auto socorro como resposta imediata para quem ficou parado e precisa de ajuda antes de pensar no restante do deslocamento.",
+      "Página de auto socorro para quem ficou parado e precisa de ajuda imediata antes de pensar no restante do deslocamento.",
     definition:
-      "Auto socorro e o atendimento emergencial que prioriza a pronta resposta ao cliente, com foco em orientacao, retirada ou encaminhamento adequado.",
+      "Auto socorro é o atendimento emergencial que prioriza a pronta resposta ao cliente, com foco em orientação, retirada ou encaminhamento adequado.",
     idealFor: [
-      "Motoristas em emergencia na estrada.",
-      "Ocorrencias em horario noturno ou fim de semana.",
-      "Clientes que precisam de orientacao imediata."
+      "Motoristas em emergência na estrada.",
+      "Ocorrências em horário noturno ou fim de semana.",
+      "Clientes que precisam de orientação imediata."
     ],
     whenToHire: [
-      "Quando a ocorrencia nao pode esperar.",
-      "Quando o cliente precisa confirmar a melhor saida em poucos minutos.",
-      "Quando a prioridade e reduzir o tempo parado."
+      "Quando a ocorrência não pode esperar.",
+      "Quando o cliente precisa confirmar a melhor saída em poucos minutos.",
+      "Quando a prioridade é reduzir o tempo parado."
     ],
     deliverables: [
-      "Orientacao inicial no WhatsApp.",
+      "Orientação inicial no WhatsApp.",
       "Acionamento da equipe para atendimento.",
-      "Encaminhamento seguro para o proximo passo."
+      "Encaminhamento seguro para o próximo passo."
     ],
     processSteps: [
-      "Recebimento da localizacao e do tipo de problema.",
-      "Levantamento rapido da necessidade.",
+      "Recebimento da localização e do tipo de problema.",
+      "Levantamento rápido da necessidade.",
       "Acionamento da equipe com foco em resposta curta."
     ],
     coverage: [
-      "Rodovias, acessos urbanos e pontos intermediarios da regiao.",
-      "Cobertura preparada para urgencias em movimento.",
-      "Apoio para ocorrencias ligadas a veículos leves e maiores."
+      "Rodovias, acessos urbanos e pontos intermediários da região.",
+      "Cobertura preparada para urgências em movimento.",
+      "Apoio para ocorrências ligadas a veículos leves e maiores."
     ],
     faq: [
       {
-        question: "Auto socorro e para pane seca tambem?",
-        answer: "Sim. O servico pode ajudar em pane, bateria, imobilizacao e outras urgencias que exigem resposta rapida."
+        question: "Auto socorro serve para pane seca também?",
+        answer: "Sim. O serviço pode ajudar em pane, bateria, imobilização e outras urgências que exigem resposta rápida."
       },
       {
-        question: "Esse servico funciona para empresa e particular?",
-        answer: "Sim. O formato atende tanto demandas individuais quanto operacoes de empresa e frota."
+        question: "Esse serviço funciona para empresa e particular?",
+        answer: "Sim. A página existe para deixar claro que a prioridade é atendimento emergencial e resposta imediata."
       },
       {
-        question: "O foco aqui e a rapidez?",
-        answer: "Sim. A pagina existe para deixar claro que a prioridade e atendimento emergencial e resposta imediata."
+        question: "O foco aqui é a rapidez?",
+        answer: "Sim. A página foi escrita para destacar atendimento emergencial e contato rápido."
       }
     ]
   },
   {
     slug: "taxi-24h",
-    title: "Taxi 24h",
-    shortTitle: "Taxi",
+    title: "Táxi 24h",
+    shortTitle: "Táxi",
     summary:
-      "Transporte de passageiros sob demanda para deslocamentos locais e regionais, com contato rapido e atendimento flexivel.",
+      "Transporte de passageiros sob demanda para deslocamentos locais e regionais, com contato rápido e atendimento flexível.",
     intro:
-      "Página dedicada a posicionar o táxi como um serviço complementar da operação, voltado para deslocamentos de passageiros quando houver necessidade.",
+      "Página do táxi 24h da Master Guincho para deslocamentos de passageiros quando houver necessidade.",
     definition:
-      "Taxi 24h e o servico de transporte de passageiros sob demanda, pensado para deslocamentos de curta ou media distancia com acionamento rapido.",
+      "Táxi 24h é o serviço de transporte de passageiros sob demanda, pensado para deslocamentos de curta ou média distância com acionamento rápido.",
     idealFor: [
       "Passageiros que precisam se deslocar com rapidez.",
-      "Clientes que buscam alternativa de mobilidade em horario flexivel.",
+      "Clientes que buscam alternativa de mobilidade em horário flexível.",
       "Demandas complementares ao atendimento principal."
     ],
     whenToHire: [
@@ -188,14 +189,14 @@ export const servicePages: ServicePage[] = [
       "Quando o contato direto por WhatsApp simplifica a chamada."
     ],
     deliverables: [
-      "Contato rapido com a operacao.",
+      "Contato rápido com a operação.",
       "Confirmação do percurso e da necessidade.",
       "Deslocamento conforme a disponibilidade informada."
     ],
     processSteps: [
       "Recebimento do ponto de embarque e destino.",
-      "Confirmação do melhor horario e disponibilidade.",
-      "Execucao do deslocamento combinado."
+      "Confirmação do melhor horário e disponibilidade.",
+      "Execução do deslocamento combinado."
     ],
     coverage: [
       "Atendimento local em Ituiutaba e cidades atendidas.",
@@ -204,16 +205,16 @@ export const servicePages: ServicePage[] = [
     ],
     faq: [
       {
-        question: "O taxi funciona 24h?",
-        answer: "Sim. A operacao foi desenhada para atender demandas ao longo do dia e da noite."
+        question: "O táxi funciona 24h?",
+        answer: "Sim. A operação foi desenhada para atender demandas ao longo do dia e da noite."
       },
       {
-        question: "Esse servico e independente do guincho?",
-        answer: "Sim. O taxi e uma oferta complementar para deslocamento de passageiros."
+        question: "Esse serviço é independente do guincho?",
+        answer: "Sim. O táxi é uma oferta complementar para deslocamento de passageiros."
       },
       {
-        question: "O contato e rapido pelo WhatsApp?",
-        answer: "Sim. Esse e o canal mais pratico para combinar ponto de encontro e destino."
+        question: "O contato é rápido pelo WhatsApp?",
+        answer: "Sim. Esse é o canal mais prático para combinar ponto de encontro e destino."
       }
     ]
   }

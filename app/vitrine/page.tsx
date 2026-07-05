@@ -15,7 +15,7 @@ const whatsapp = buildWhatsAppUrl({
 export const metadata: Metadata = {
   title: `Vitrine | ${siteConfigTemplate.siteName}`,
   description:
-    "Vitrine por tipo de veiculo e carga com paginas individuais para moto, carro, caminhao, embarcacao e outros cenarios.",
+    "Vitrine por tipo de veículo e carga com páginas individuais para moto, carro, caminhão, embarcação e outros cenários.",
   alternates: {
     canonical: "/vitrine/"
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     title: `Vitrine | ${siteConfigTemplate.siteName}`,
     description:
-      "Hub visual da Master Guincho com cards segmentados e navegacao para paginas individuais da vitrine.",
+      "Hub visual da Master Guincho com cards segmentados e navegação para páginas individuais da vitrine.",
     type: "website",
     locale: "pt_BR",
     images: [
@@ -72,7 +72,7 @@ const jsonLd = {
         {
           "@type": "ListItem",
           position: 1,
-          name: "Inicio",
+            name: "Início",
           item: siteConfigTemplate.siteUrl
         },
         {
@@ -98,7 +98,7 @@ export default function VitrinePage() {
         <section className="bg-brand-deep px-4 pb-20 pt-28 text-white md:px-8">
           <div className="mx-auto max-w-7xl">
             <Link href="/" className="text-sm font-black uppercase text-brand-gold transition hover:text-white">
-              Voltar para inicio
+              Voltar para início
             </Link>
             <p className="mt-10 text-sm font-black uppercase tracking-[0.18em] text-brand-gold">
               {vitrineSection.eyebrow}
@@ -120,7 +120,7 @@ export default function VitrinePage() {
                 href="/servicos/"
                 className="rounded-md border border-white/50 px-7 py-4 text-center text-sm font-black uppercase text-white transition hover:bg-white hover:text-brand-deep focus:outline-none focus:ring-4 focus:ring-white/25"
               >
-                Ver servicos
+                Ver serviços
               </Link>
             </div>
           </div>
@@ -149,7 +149,7 @@ export default function VitrinePage() {
                     href={`/vitrine/${page.slug}/`}
                     className="mt-6 inline-flex rounded-md bg-brand-deep px-5 py-3 text-sm font-black uppercase text-white transition hover:bg-brand-blue focus:outline-none focus:ring-4 focus:ring-brand-blue/25"
                   >
-                    Ver pagina
+                  Ver página
                   </Link>
                 </div>
               </article>
@@ -164,20 +164,20 @@ export default function VitrinePage() {
                 Estrutura SEO
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Paginas individuais para reforcar SEO, GEO e AIO
+                Páginas individuais para reforçar SEO, GEO e AIO
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>
-                Cada pagina da vitrine usa uma palavra-chave principal, uma imagem real da
-                operacao e um texto adaptado ao tipo de veiculo ou carga.
+                Cada página da vitrine usa uma palavra-chave principal, uma imagem real da
+                operação e um texto adaptado ao tipo de veículo ou carga.
               </p>
               <p>
                 A estrutura apoia a Home, amplia o alcance das buscas locais e facilita a
-                navegacao do usuario entre servico, cobertura e tipo de atendimento.
+                navegação do usuário entre serviço, cobertura e tipo de atendimento.
               </p>
               <p>
-                O visitante chega ao card certo mais rapido e encontra um caminho direto
+                O visitante chega ao card certo mais rápido e encontra um caminho direto
                 para WhatsApp.
               </p>
             </div>
@@ -187,10 +187,10 @@ export default function VitrinePage() {
         <section className="px-4 py-16 md:px-8">
           <div className="mx-auto max-w-5xl">
             <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-              Areas atendidas
+              Áreas atendidas
             </p>
             <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-              Vitrine conectada a cobertura real
+              Vitrine conectada à cobertura real
             </h2>
             <div className="mt-10 grid gap-3 sm:grid-cols-2">
               {siteConfigTemplate.serviceAreas.map((area) => (

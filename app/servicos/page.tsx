@@ -13,7 +13,7 @@ const whatsapp = buildWhatsAppUrl({
 });
 
 export const metadata: Metadata = {
-  title: `Servicos | ${siteConfigTemplate.siteName}`,
+  title: `Serviços | ${siteConfigTemplate.siteName}`,
   description:
     "Hub de serviços da Master Guincho com páginas para guincho, reboque, auto socorro e táxi 24h.",
   alternates: {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: pageUrl,
-    title: `Servicos | ${siteConfigTemplate.siteName}`,
+    title: `Serviços | ${siteConfigTemplate.siteName}`,
     description:
       "Página central para organizar serviços, argumentos de valor e conversão da Master Guincho.",
     type: "website",
@@ -43,7 +43,7 @@ const jsonLd = {
     {
       "@id": `${pageUrl}#webpage`,
       "@type": "WebPage",
-      name: `Servicos | ${siteConfigTemplate.siteName}`,
+      name: `Serviços | ${siteConfigTemplate.siteName}`,
       url: pageUrl,
       isPartOf: {
         "@id": `${siteConfigTemplate.siteUrl}/#website`
@@ -72,13 +72,13 @@ const jsonLd = {
         {
           "@type": "ListItem",
           position: 1,
-          name: "Inicio",
+          name: "Início",
           item: siteConfigTemplate.siteUrl
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "Servicos",
+          name: "Serviços",
           item: pageUrl
         }
       ]
@@ -98,7 +98,7 @@ export default function ServicesPage() {
         <section className="bg-brand-deep px-4 pb-20 pt-28 text-white md:px-8">
           <div className="mx-auto max-w-7xl">
             <Link href="/" className="text-sm font-black uppercase text-brand-gold transition hover:text-white">
-              Voltar para inicio
+              Voltar para início
             </Link>
             <p className="mt-10 text-sm font-black uppercase tracking-[0.18em] text-brand-gold">
               {servicesDataTemplate.section.eyebrow}
@@ -162,7 +162,7 @@ export default function ServicesPage() {
                 prontos para navegação local.
               </p>
               <p>
-                Cada pagina interna aprofunda um servico com contexto, pergunta frequente
+                Cada página interna aprofunda um serviço com contexto, pergunta frequente
                 e chamada objetiva para o WhatsApp.
               </p>
               <p>
@@ -176,7 +176,7 @@ export default function ServicesPage() {
         <section className="px-4 py-16 md:px-8">
           <div className="mx-auto max-w-5xl">
             <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-              Areas atendidas
+              Áreas atendidas
             </p>
             <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
                 Cobertura definida pela operação real

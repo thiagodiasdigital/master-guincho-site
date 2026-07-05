@@ -110,13 +110,13 @@ export default async function ServiceDetailPage({ params }: PageProps) {
           {
             "@type": "ListItem",
             position: 1,
-            name: "Inicio",
+            name: "Início",
             item: siteConfigTemplate.siteUrl
           },
           {
             "@type": "ListItem",
             position: 2,
-            name: "Servicos",
+            name: "Serviços",
             item: `${siteConfigTemplate.siteUrl.replace(/\/$/, "")}/servicos/`
           },
           {
@@ -142,10 +142,10 @@ export default async function ServiceDetailPage({ params }: PageProps) {
           <div className="mx-auto max-w-7xl">
             <div className="flex flex-wrap gap-4 text-sm font-black uppercase">
               <Link href="/" className="text-brand-gold transition hover:text-white">
-                Inicio
+                Início
               </Link>
               <Link href="/servicos/" className="text-brand-gold transition hover:text-white">
-                Servicos
+                Serviços
               </Link>
             </div>
             <p className="mt-10 text-sm font-black uppercase tracking-[0.18em] text-brand-gold">

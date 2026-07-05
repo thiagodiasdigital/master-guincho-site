@@ -86,18 +86,18 @@ export const siteConfigTemplate: SiteConfigTemplate = {
   googleReviewsUrl:
     process.env.NEXT_PUBLIC_GOOGLE_REVIEWS_URL || "https://maps.app.goo.gl/wo5rU1Qz639VfnRw9",
   navItems: [
-    { label: "Inicio", href: "#inicio" },
+    { label: "Início", href: "#inicio" },
     { label: "Vitrine", href: "/vitrine/" },
     { label: "Frota", href: "#frota" },
-    { label: "Solucoes", href: "#solucoes" },
-    { label: "Servicos", href: "/servicos/" },
+    { label: "Soluções", href: "#solucoes" },
+    { label: "Serviços", href: "/servicos/" },
     { label: "Cobertura", href: "#cobertura" },
     { label: "FAQ", href: "#faq" },
     { label: "Contato", href: "#contato" }
   ],
   primaryCta: {
     label: "Chamar no WhatsApp",
-    message: "Ola, preciso de um guincho agora.",
+    message: "Olá, preciso de um guincho agora.",
     trackingType: "whatsapp"
   },
   secondaryCta: {

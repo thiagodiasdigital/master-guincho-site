@@ -110,7 +110,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
           {
             "@type": "ListItem",
             position: 1,
-            name: "Inicio",
+            name: "Início",
             item: siteConfigTemplate.siteUrl
           },
           {
@@ -142,7 +142,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
           <div className="mx-auto max-w-7xl">
             <div className="flex flex-wrap gap-4 text-sm font-black uppercase">
               <Link href="/" className="text-brand-gold transition hover:text-white">
-                Inicio
+                Início
               </Link>
               <Link href="/rotas/" className="text-brand-gold transition hover:text-white">
                 Rotas
@@ -166,7 +166,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
                 href="/servicos/"
                 className="rounded-md border border-white/50 px-7 py-4 text-center text-sm font-black uppercase text-white transition hover:bg-white hover:text-brand-deep focus:outline-none focus:ring-4 focus:ring-white/25"
               >
-                Ver servicos
+                Ver serviços
               </Link>
             </div>
           </div>
@@ -203,7 +203,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
               </ul>
             </article>
             <article className="rounded-lg bg-white p-6 shadow-soft">
-              <h2 className="text-2xl font-black text-brand-deep">Servicos relacionados</h2>
+              <h2 className="text-2xl font-black text-brand-deep">Serviços relacionados</h2>
               <ul className="mt-5 grid gap-3 leading-7 text-slate-700">
                 {route.serviceFit.map((item) => (
                   <li key={item}>{item}</li>
