@@ -33,19 +33,19 @@ export const routePages: RoutePage[] = [
     slug: "ituiutaba",
     title: "Ituiutaba",
     shortTitle: "Cidade base",
-    intro: "Pagina principal da cobertura e da leitura local da Master Guincho.",
+    intro: "Página principal da cobertura e da leitura local da Master Guincho.",
     routeSummary:
-      "Ituiutaba e a cidade-base da operacao, o que permite orientar o visitante de forma rapida quando ele busca um guincho ou auto socorro com resposta imediata.",
+      "Ituiutaba é a cidade-base da operação, o que permite orientar o visitante de forma rápida quando ele busca um guincho ou auto socorro com resposta imediata.",
     demand: [
       "Pane no centro e em bairros da cidade.",
-      "Retirada de veiculos com urgencia.",
+      "Retirada de veículos com urgência.",
       "Atendimento complementar para empresas e particulares."
     ],
     serviceFit: ["Guincho 24h", "Reboque 24h", "Auto socorro"],
     coverage: [
       "Atendimento principal na cidade.",
       "Base de apoio para cidades vizinhas.",
-      "Ponto central de origem da operacao."
+      "Ponto central de origem da operação."
     ],
     operationalNotes: [
       "Esta página é a referência principal para a cobertura local.",
@@ -57,10 +57,10 @@ export const routePages: RoutePage[] = [
     faq: [
       {
         question: "Ituiutaba e a cidade-base da operacao?",
-        answer: "Sim. A operacao parte de Ituiutaba e a pagina serve como ponto central da cobertura local."
+        answer: "Sim. A operação parte de Ituiutaba e a página serve como ponto central da cobertura local."
       },
       {
-        question: "A pagina pode receber dados de tempo de resposta?",
+        question: "A página pode receber dados de tempo de resposta?",
         answer: "Pode, desde que a informacao seja confirmada e mantida atualizada."
       }
     ]
@@ -85,7 +85,7 @@ export const routePages: RoutePage[] = [
     ],
     operationalNotes: [
       "Use linguagem objetiva e de contato rapido.",
-      "Mantenha a pagina curta e focada.",
+      "Mantenha a página curta e focada.",
       "Conecte sempre ao WhatsApp."
     ],
     relatedServices: [baseServices[0], baseServices[2]],
@@ -96,7 +96,7 @@ export const routePages: RoutePage[] = [
         answer: "Sim. A cidade faz parte da area atendida da Master Guincho."
       },
       {
-        question: "A pagina deve priorizar urgencia?",
+        question: "A página deve priorizar urgência?",
         answer: "Sim. Para auto socorro, o foco e reduzir o tempo ate o contato."
       }
     ]
@@ -107,7 +107,7 @@ export const routePages: RoutePage[] = [
     shortTitle: "Gurinhata",
     intro: "Pagina para segmentar a cobertura em uma cidade de apoio da regiao.",
     routeSummary:
-      "Gurinhata funciona como pagina de cobertura local para orientar o visitante que precisa de guincho, reboque ou auto socorro com rapidez.",
+      "Gurinhatá funciona como página de cobertura local para orientar o visitante que precisa de guincho, reboque ou auto socorro com rapidez.",
     demand: [
       "Atendimento emergencial na cidade.",
       "Retirada de veiculo sem rodar.",
@@ -121,14 +121,14 @@ export const routePages: RoutePage[] = [
     ],
     operationalNotes: [
       "Evite texto genérico demais.",
-      "Mantenha a pagina com CTA forte.",
-      "Conecte com a pagina de guincho principal."
+      "Mantenha a página com CTA forte.",
+      "Conecte com a página de guincho principal."
     ],
     relatedServices: [baseServices[0], baseServices[1]],
     references: [],
     faq: [
       {
-        question: "Essa pagina serve para busca local?",
+        question: "Essa página serve para busca local?",
         answer: "Sim. Ela foi pensada para ser encontrada por quem procura atendimento na cidade."
       }
     ]

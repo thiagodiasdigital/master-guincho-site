@@ -67,7 +67,7 @@ export const homeDataTemplate: HomeDataTemplate = {
       eyebrow: "Serviços",
       title: "Serviços organizados para conversão rápida",
       description:
-        "A lista de cards organiza a oferta principal da empresa sem mexer no layout geral da página."
+        "A vitrine organiza a oferta principal da empresa e mantém a leitura clara para o visitante."
     },
     coverage: {
       eyebrow: "Cobertura",
