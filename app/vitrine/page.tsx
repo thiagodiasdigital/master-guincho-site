@@ -15,7 +15,7 @@ const whatsapp = buildWhatsAppUrl({
 export const metadata: Metadata = {
   title: `Vitrine | ${siteConfigTemplate.siteName}`,
   description:
-    "Vitrine por tipo de veículo e carga com páginas individuais para moto, carro, caminhão, embarcação e outros cenários.",
+    "Vitrine por tipo de veículo e carga com páginas individuais para moto, carro, caminhão, embarcação e outros veículos atendidos.",
   alternates: {
     canonical: "/vitrine/"
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     title: `Vitrine | ${siteConfigTemplate.siteName}`,
     description:
-      "Hub visual da Master Guincho com cards segmentados e navegação para páginas individuais da vitrine.",
+      "Cards e páginas individuais para facilitar a escolha do tipo de veículo ou carga atendida.",
     type: "website",
     locale: "pt_BR",
     images: [
@@ -161,24 +161,21 @@ export default function VitrinePage() {
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Estrutura SEO
+                Vitrine por tipo de veículo e carga
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Páginas individuais para reforçar SEO, GEO e AIO
+                Escolha o tipo de veículo ou carga para abrir a página certa
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>
-                Cada página da vitrine usa uma palavra-chave principal, uma imagem real da
-                operação e um texto adaptado ao tipo de veículo ou carga.
+                Cada página mostra a categoria atendida, a imagem correspondente e o caminho direto para o WhatsApp.
               </p>
               <p>
-                A estrutura apoia a Home, amplia o alcance das buscas locais e facilita a
-                navegação do usuário entre serviço, cobertura e tipo de atendimento.
+                A vitrine ajuda o visitante a encontrar a opção certa sem depender de texto genérico.
               </p>
               <p>
-                O visitante chega ao card certo mais rápido e encontra um caminho direto
-                para WhatsApp.
+                O visitante chega ao card certo mais rápido e encontra um caminho direto para falar com a operação.
               </p>
             </div>
           </div>

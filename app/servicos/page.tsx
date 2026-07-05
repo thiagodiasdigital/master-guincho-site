@@ -15,7 +15,7 @@ const whatsapp = buildWhatsAppUrl({
 export const metadata: Metadata = {
   title: `Serviços | ${siteConfigTemplate.siteName}`,
   description:
-    "Hub de serviços da Master Guincho com páginas para guincho, reboque, auto socorro e táxi 24h.",
+    "Serviços da Master Guincho em Ituiutaba e região, com páginas para guincho, reboque, auto socorro e táxi 24h.",
   alternates: {
     canonical: "/servicos/"
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     title: `Serviços | ${siteConfigTemplate.siteName}`,
     description:
-      "Página central para organizar serviços, argumentos de valor e conversão da Master Guincho.",
+      "Serviços da Master Guincho em Ituiutaba e região, com contato rápido pelo WhatsApp.",
     type: "website",
     locale: "pt_BR",
     images: [
@@ -150,24 +150,21 @@ export default function ServicesPage() {
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Estrutura comercial
+                Serviços
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Serviços modelados para conversão
+                O que este serviço resolve
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>
-                Este hub organiza as ofertas principais da Master Guincho em cards
-                prontos para navegação local.
+                Cada serviço explica o problema que resolve, quando chamar e como falar com a operação pelo WhatsApp.
               </p>
               <p>
-                Cada página interna aprofunda um serviço com contexto, pergunta frequente
-                e chamada objetiva para o WhatsApp.
+                Use a página certa para pedir guincho, reboque, auto socorro ou táxi 24h em Ituiutaba e região.
               </p>
               <p>
-                A arquitetura favorece SEO, GEO e AIO sem sacrificar a leitura rápida do
-                usuário.
+                O objetivo é facilitar a chamada e deixar clara a cobertura da Master Guincho.
               </p>
             </div>
           </div>
@@ -179,7 +176,7 @@ export default function ServicesPage() {
               Áreas atendidas
             </p>
             <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Cobertura definida pela operação real
+              Ituiutaba e região atendidas pela operação
             </h2>
             <div className="mt-10 grid gap-3 sm:grid-cols-2">
               {siteConfigTemplate.serviceAreas.map((area) => (

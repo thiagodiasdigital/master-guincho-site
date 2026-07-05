@@ -96,7 +96,7 @@ export const siteConfigTemplate: SiteConfigTemplate = {
     { label: "Contato", href: "#contato" }
   ],
   primaryCta: {
-    label: "Chamar no WhatsApp",
+    label: "Chamar guincho agora",
     message: "Olá, preciso de um guincho agora.",
     trackingType: "whatsapp"
   },

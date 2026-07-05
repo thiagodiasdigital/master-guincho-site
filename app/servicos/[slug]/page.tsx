@@ -27,17 +27,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const pageUrl = `${siteConfigTemplate.siteUrl.replace(/\/$/, "")}/servicos/${service.slug}/`;
+  const pageTitle = `${service.title} em Ituiutaba e Região | ${siteConfigTemplate.siteName}`;
 
   return {
-    title: `${service.title} | ${siteConfigTemplate.siteName}`,
-    description: service.summary,
+    title: pageTitle,
+    description: `Solicite ${service.title.toLowerCase()} com a Master Guincho em Ituiutaba e região. Atendimento para carros, motos, caminhonetes, vans e outros veículos. Fale pelo WhatsApp.`,
     alternates: {
       canonical: `/servicos/${service.slug}/`
     },
     openGraph: {
       url: pageUrl,
-      title: `${service.title} | ${siteConfigTemplate.siteName}`,
-      description: service.summary,
+      title: pageTitle,
+      description: `Solicite ${service.title.toLowerCase()} com a Master Guincho em Ituiutaba e região. Atendimento para carros, motos, caminhonetes, vans e outros veículos. Fale pelo WhatsApp.`,
       type: "website",
       locale: "pt_BR",
       images: [
@@ -72,7 +73,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       {
         "@id": `${pageUrl}#webpage`,
         "@type": "WebPage",
-        name: service.title,
+        name: `${service.title} em Ituiutaba e Região`,
         url: pageUrl,
         isPartOf: {
           "@id": `${siteConfigTemplate.siteUrl}/#website`
@@ -82,7 +83,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       {
         "@id": `${pageUrl}#service`,
         "@type": "Service",
-        name: service.title,
+        name: `${service.title} em Ituiutaba e Região`,
         description: service.definition,
         provider: {
           "@type": "Organization",
@@ -152,7 +153,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
               {service.shortTitle}
             </p>
             <h1 className="mt-4 max-w-5xl text-4xl font-black leading-tight md:text-6xl">
-              {service.title}
+              {service.title} em Ituiutaba e Região
             </h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-white/82">{service.intro}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -179,7 +180,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                 O que este serviço resolve
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Estrutura clara para a oferta principal
+                O que este serviço resolve
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
@@ -192,15 +193,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
         <section className="bg-brand-mist px-4 py-16 md:px-8">
           <div className="mx-auto grid max-w-7xl gap-5 lg:grid-cols-3">
             <article className="rounded-lg bg-white p-6 shadow-soft">
-              <h2 className="text-2xl font-black text-brand-deep">Ideal para</h2>
-              <ul className="mt-5 grid gap-3 leading-7 text-slate-700">
-                {service.idealFor.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </article>
-            <article className="rounded-lg bg-white p-6 shadow-soft">
-              <h2 className="text-2xl font-black text-brand-deep">Quando usar</h2>
+              <h2 className="text-2xl font-black text-brand-deep">Quando chamar</h2>
               <ul className="mt-5 grid gap-3 leading-7 text-slate-700">
                 {service.whenToHire.map((item) => (
                   <li key={item}>{item}</li>
@@ -208,7 +201,15 @@ export default async function ServiceDetailPage({ params }: PageProps) {
               </ul>
             </article>
             <article className="rounded-lg bg-white p-6 shadow-soft">
-              <h2 className="text-2xl font-black text-brand-deep">Entregas esperadas</h2>
+              <h2 className="text-2xl font-black text-brand-deep">Como solicitar pelo WhatsApp</h2>
+              <ul className="mt-5 grid gap-3 leading-7 text-slate-700">
+                {service.processSteps.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </article>
+            <article className="rounded-lg bg-white p-6 shadow-soft">
+              <h2 className="text-2xl font-black text-brand-deep">O que informar para agilizar o atendimento</h2>
               <ul className="mt-5 grid gap-3 leading-7 text-slate-700">
                 {service.deliverables.map((item) => (
                   <li key={item}>{item}</li>
@@ -222,28 +223,28 @@ export default async function ServiceDetailPage({ params }: PageProps) {
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-2">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Processo sugerido
+                Áreas atendidas
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Como esta página ajuda na decisão
+                {service.coverage[0]}
               </h2>
               <div className="mt-8 grid gap-3">
-                {service.processSteps.map((step) => (
-                  <div key={step} className="rounded-lg border border-brand-blue/15 bg-brand-mist px-5 py-4 font-bold">
-                    {step}
+                {service.coverage.map((item) => (
+                  <div key={item} className="rounded-lg border border-brand-blue/15 bg-brand-mist px-5 py-4 font-bold">
+                    {item}
                   </div>
                 ))}
               </div>
             </div>
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Cobertura configuravel
+                Como informar a necessidade
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Áreas e escopo definidos pela operação
+                Informe localização, veículo e destino pelo WhatsApp
               </h2>
               <div className="mt-8 grid gap-3">
-                {service.coverage.map((item) => (
+                {service.deliverables.map((item) => (
                   <div key={item} className="rounded-lg border border-brand-blue/15 bg-brand-mist px-5 py-4 font-bold">
                     {item}
                   </div>

@@ -309,7 +309,7 @@ export const vitrinePages: VitrinePage[] = [
     benefits: ["Diferencia a oferta da concorrência.", "Captura consultas mais qualificadas.", "Cria ponte entre conteúdo e operação."],
     coverage: ["Atendimento regional sob consulta.", "Ligação com a cobertura principal do site.", "Contato rápido para validar viabilidade."],
     faq: [
-      { question: "O serviço realmente fala de dois veículos?", answer: "Sim. A página foi criada para essa intenção de busca." },
+      { question: "O serviço realmente fala de dois veículos?", answer: "Sim. O atendimento considera cenários com mais de um veículo conforme a operação." },
       { question: "O atendimento depende de avaliação prévia?", answer: "Pode depender, conforme o tipo de ocorrência." },
       { question: "A página pode entrar na vitrine principal?", answer: "Sim. Ela faz parte da lista principal de cards e rotas." }
     ],

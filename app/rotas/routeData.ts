@@ -2,6 +2,7 @@ export type RoutePage = {
   slug: string;
   title: string;
   shortTitle: string;
+  state?: "MG" | "GO";
   intro: string;
   routeSummary: string;
   demand: string[];
@@ -48,9 +49,9 @@ export const routePages: RoutePage[] = [
       "Ponto central de origem da operação."
     ],
     operationalNotes: [
-      "Esta página é a referência principal para a cobertura local.",
-      "Ideal para visitas que chegam por busca de marca ou cidade.",
-      "Pode ser ampliada com provas e fotos locais."
+      "Atendimento principal com base em Ituiutaba.",
+      "Cobertura regional a partir da cidade.",
+      "Contato rápido pelo WhatsApp."
     ],
     relatedServices: baseServices.slice(0, 2),
     references: [],
@@ -84,9 +85,9 @@ export const routePages: RoutePage[] = [
       "Boa para leads que precisam de resposta rápida."
     ],
     operationalNotes: [
-      "Use linguagem objetiva e de contato rápido.",
-      "Mantenha a página curta e focada.",
-      "Conecte sempre ao WhatsApp."
+      "Atendimento sob disponibilidade para Capinópolis.",
+      "Envie localização, tipo de veículo e destino.",
+      "Resposta direta pelo WhatsApp."
     ],
     relatedServices: [baseServices[0], baseServices[2]],
     references: [],
@@ -120,9 +121,9 @@ export const routePages: RoutePage[] = [
       "Contexto local para SEO e GEO."
     ],
     operationalNotes: [
-      "Evite texto genérico demais.",
-      "Mantenha a página com CTA forte.",
-      "Conecte com a página de guincho principal."
+      "Atendimento para Gurinhatã conforme disponibilidade.",
+      "Solicitação direta pelo WhatsApp.",
+      "Cobertura voltada para guincho, reboque e auto socorro."
     ],
     relatedServices: [baseServices[0], baseServices[1]],
     references: [],
@@ -148,9 +149,9 @@ export const routePages: RoutePage[] = [
     serviceFit: ["Guincho 24h", "Reboque 24h"],
     coverage: ["Cidade atendida na região", "Cobertura operacional regional", "Resposta via WhatsApp"],
     operationalNotes: [
-      "Use linguagem objetiva e de contato rápido.",
-      "Mantenha a página curta e focada.",
-      "Conecte sempre ao WhatsApp."
+      "Canápolis integra a área atendida da operação.",
+      "O contato é feito pelo WhatsApp.",
+      "Atendimento para guincho, reboque e auto socorro."
     ],
     relatedServices: [baseServices[0], baseServices[1]],
     references: [],
@@ -172,9 +173,9 @@ export const routePages: RoutePage[] = [
     serviceFit: ["Auto socorro", "Guincho 24h"],
     coverage: ["Cobertura regional", "Atendimento local", "Conexão com cidades vizinhas"],
     operationalNotes: [
-      "Mantenha a página enxuta.",
-      "Priorize CTA e telefone.",
-      "Use linguagem direta."
+      "Ipiaçu faz parte da cobertura regional.",
+      "Envie a localização pelo WhatsApp.",
+      "Atendimento para retirada e transporte de veículos."
     ],
     relatedServices: [baseServices[2], baseServices[0]],
     references: [],
@@ -196,9 +197,9 @@ export const routePages: RoutePage[] = [
     serviceFit: ["Guincho 24h", "Auto socorro"],
     coverage: ["Cidade mineira atendida", "Cobertura regional", "Resposta pelo WhatsApp"],
     operationalNotes: [
-      "Boa para consultas de proximidade.",
-      "Pode receber fotos de operação.",
-      "Use sempre o nome completo."
+      "Cachoeira Dourada MG é atendida conforme disponibilidade.",
+      "O acionamento é feito pelo WhatsApp.",
+      "Cobertura regional para guincho e auto socorro."
     ],
     relatedServices: [baseServices[0], baseServices[2]],
     references: [],
@@ -220,9 +221,9 @@ export const routePages: RoutePage[] = [
     serviceFit: ["Guincho 24h", "Reboque 24h"],
     coverage: ["Cidade atendida", "Cobertura em demanda", "Resposta via WhatsApp"],
     operationalNotes: [
-      "Texto direto e sem exagero.",
-      "Foque em mobilidade e resposta.",
-      "Conecte com o WhatsApp."
+      "Santa Vitória integra a cobertura regional.",
+      "O atendimento depende da disponibilidade operacional.",
+      "Solicite suporte pelo WhatsApp."
     ],
     relatedServices: [baseServices[0], baseServices[1]],
     references: [],
@@ -239,14 +240,14 @@ export const routePages: RoutePage[] = [
     shortTitle: "Monte Alegre",
     intro: "Cobertura para buscas de atendimento rápido na cidade e entorno.",
     routeSummary:
-      "A página de Monte Alegre de Minas reforça a leitura local do site e ajuda o visitante a encontrar a Master Guincho por cidade.",
+      "Monte Alegre de Minas integra a cobertura regional da Master Guincho.",
     demand: ["Atendimento urgente", "Transporte de veículo", "Contato por WhatsApp"],
     serviceFit: ["Auto socorro", "Guincho 24h"],
     coverage: ["Cidade atendida", "Eixo regional", "Prioridade de resposta"],
     operationalNotes: [
-      "Pode destacar rotas de acesso quando confirmadas.",
-      "Mantenha CTA curto.",
-      "Use schema de página local."
+      "Monte Alegre de Minas é atendida pela operação regional.",
+      "Envie localização e destino pelo WhatsApp.",
+      "Cobertura para guincho, reboque e auto socorro."
     ],
     relatedServices: [baseServices[2], baseServices[0]],
     references: [],
@@ -268,9 +269,9 @@ export const routePages: RoutePage[] = [
     serviceFit: ["Guincho 24h", "Reboque 24h"],
     coverage: ["Cidade atendida", "Cobertura em demanda", "Resposta via WhatsApp"],
     operationalNotes: [
-      "Use página com foco local.",
-      "Adicione fotos se houver.",
-      "Priorize o contato rápido."
+      "Campina Verde entra na cobertura regional.",
+      "O atendimento ocorre conforme disponibilidade.",
+      "Solicite pelo WhatsApp com localização e destino."
     ],
     relatedServices: [baseServices[0], baseServices[1]],
     references: [],
@@ -285,6 +286,7 @@ export const routePages: RoutePage[] = [
     slug: "cachoeira-dourada-go",
     title: "Cachoeira Dourada GO",
     shortTitle: "Cachoeira GO",
+    state: "GO",
     intro: "Cobertura do lado goiano para reforçar a área atendida.",
     routeSummary:
       "A cidade entra como ponto de cobertura para consultas por localidade e para deixar mais clara a abrangência regional da Master Guincho.",
@@ -292,9 +294,9 @@ export const routePages: RoutePage[] = [
     serviceFit: ["Guincho 24h", "Auto socorro"],
     coverage: ["Cidade em GO", "Cobertura regional", "Atendimento sob demanda"],
     operationalNotes: [
-      "Use o nome completo com UF.",
-      "Evite promessas de tempo se não confirmadas.",
-      "Mantenha CTA sempre visível."
+      "Cachoeira Dourada GO faz parte da cobertura regional.",
+      "O atendimento depende da disponibilidade da operação.",
+      "Envie sua localização pelo WhatsApp."
     ],
     relatedServices: [baseServices[0], baseServices[2]],
     references: [],
@@ -316,9 +318,9 @@ export const routePages: RoutePage[] = [
     serviceFit: ["Auto socorro", "Guincho 24h"],
     coverage: ["Cidade atendida", "Cobertura regional", "Resposta direta"],
     operationalNotes: [
-      "Boa página para buscas de proximidade.",
-      "Use texto curto e objetivo.",
-      "Mantenha o CTA para WhatsApp."
+      "Inaciolândia é atendida conforme disponibilidade.",
+      "Contato rápido pelo WhatsApp.",
+      "Cobertura regional para guincho e auto socorro."
     ],
     relatedServices: [baseServices[2], baseServices[0]],
     references: [],
@@ -333,6 +335,7 @@ export const routePages: RoutePage[] = [
     slug: "itumbiara",
     title: "Itumbiara",
     shortTitle: "Itumbiara",
+    state: "GO",
     intro: "Cidade estratégica para cobertura regional e busca por socorro rápido.",
     routeSummary:
       "Itumbiara tem peso importante na cobertura regional e ajuda a distribuir a autoridade do site em uma cidade relevante do entorno.",
@@ -340,9 +343,9 @@ export const routePages: RoutePage[] = [
     serviceFit: ["Guincho 24h", "Reboque 24h", "Auto socorro"],
     coverage: ["Cidade atendida", "Área estratégica", "Conexão regional"],
     operationalNotes: [
-      "Pode receber interlink com Araporã.",
-      "Use linguagem de cobertura real.",
-      "Mantenha a página atualizada."
+      "Itumbiara integra a cobertura regional em GO.",
+      "O atendimento depende da disponibilidade operacional.",
+      "Envie localização, veículo e destino pelo WhatsApp."
     ],
     relatedServices: [baseServices[0], baseServices[1]],
     references: [],
@@ -364,16 +367,16 @@ export const routePages: RoutePage[] = [
     serviceFit: ["Guincho 24h", "Auto socorro"],
     coverage: ["Cidade atendida", "Cobertura expandida", "Acionamento rápido"],
     operationalNotes: [
-      "Mantenha a página consistente com a cobertura real.",
-      "Evite informações não confirmadas.",
-      "Use CTA forte."
+      "Uberlândia faz parte da cobertura regional quando disponível.",
+      "O atendimento é confirmado pelo WhatsApp.",
+      "Informe veículo, origem e destino para agilizar."
     ],
     relatedServices: [baseServices[0], baseServices[2]],
     references: [],
     faq: [
       {
         question: "Uberlândia faz parte da cobertura?",
-        answer: "Sim. A página foi criada para representar a cobertura ampliada."
+        answer: "Sim. A cobertura ampliada inclui Uberlândia conforme a área atendida."
       }
     ]
   },
@@ -396,9 +399,9 @@ export const routePages: RoutePage[] = [
       "Página pensada para busca imediata."
     ],
     operationalNotes: [
-      "Mantenha esta página mais forte do que as demais.",
-      "Inclua provas, fotos e sinais de operação quando possível.",
-      "Se houver tempo de resposta real confirmado, ele pode ser citado."
+      "Araporã conta com página dedicada de cobertura regional.",
+      "Atendimento sob disponibilidade da operação.",
+      "Envie localização e tipo de veículo pelo WhatsApp."
     ],
     relatedServices: [baseServices[0], baseServices[2]],
     references: [],

@@ -20,9 +20,9 @@ export type ShowcaseDataTemplate = {
 export const showcaseDataTemplate: ShowcaseDataTemplate = {
   section: {
     eyebrow: "Vitrine",
-    title: "Cards por tipo de veículo e carga",
+    title: "Tipos de veículo e carga atendidos",
     description:
-      "Área dedicada para destacar imagens reais de moto, carro, caminhão, embarcação e demais cenários da Master Guincho."
+      "Imagens reais de moto, carro, caminhão, embarcação e outros cenários atendidos pela Master Guincho."
   },
   items: [
     {

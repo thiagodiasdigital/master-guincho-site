@@ -17,10 +17,10 @@ export type SeoConfigTemplate = {
 
 // robots/index devem ser controlados por ambiente, especialmente em preview.
 export const seoConfigTemplate: SeoConfigTemplate = {
-  defaultTitle: "Master Guincho | Guincho e Auto Socorro 24h em Ituiutaba",
-  titleTemplate: "%s | Master Guincho",
+  defaultTitle: "Guincho 24h em Ituiutaba e Região | Master Guincho",
+  titleTemplate: "%s",
   defaultDescription:
-    "Guincho, reboque, auto socorro e táxi 24h em Ituiutaba e região, com atendimento para carros, motos, caminhonetes, vans, caminhões, cargas especiais, embarcações e máquinas.",
+    "Guincho, reboque e auto socorro 24h em Ituiutaba e região. Atendimento para carros, motos, caminhonetes, vans, caminhões, máquinas e cargas especiais. Chame pelo WhatsApp.",
   canonicalBaseUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://master-guincho.vercel.app",
   indexable: process.env.NEXT_PUBLIC_INDEXABLE ? process.env.NEXT_PUBLIC_INDEXABLE === "true" : true,
   defaultOgImage: "/images/master-guincho-fallback-hero-16x9.png",

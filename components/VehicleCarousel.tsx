@@ -69,7 +69,7 @@ export function VehicleCarousel({ items }: VehicleCarouselProps) {
                     href={item.href}
                     className="mt-8 inline-flex w-fit rounded-md bg-brand-gold px-6 py-3 text-sm font-black uppercase text-brand-deep transition hover:bg-[#ffd24a] focus:outline-none focus:ring-4 focus:ring-brand-gold/35"
                   >
-                    Solicitar orcamento
+                    Chamar agora
                   </a>
                 </div>
               </div>

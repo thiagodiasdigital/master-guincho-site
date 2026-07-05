@@ -54,32 +54,32 @@ export const homeDataTemplate: HomeDataTemplate = {
       title: "Atendimento 24h para quem precisa de ajuda na estrada ou na cidade",
       copy: [
         "A Master Guincho atende ocorrências com agilidade, organização e foco em segurança, conectando o cliente ao canal certo no menor tempo possível.",
-        "O site foi preparado para apresentar cobertura, serviços e contato de forma clara, sem ruído para o cliente."
+        "Guincho, reboque e auto socorro 24h em Ituiutaba e região, com contato rápido pelo WhatsApp."
       ]
     },
     showcase: {
       eyebrow: "Vitrine",
-      title: "Uma vitrine visual por tipo de veículo e carga",
+      title: "Vitrine por tipo de veículo e carga",
       description:
-        "Espaço para mostrar moto, carro, caminhão, embarcação e outros cenários com páginas individuais."
+        "Páginas individuais para moto, carro, caminhão, embarcação e outros veículos atendidos."
     },
     services: {
       eyebrow: "Serviços",
-      title: "Serviços organizados para conversão rápida",
+      title: "Serviços com atendimento direto",
       description:
-        "A vitrine organiza a oferta principal da empresa e mantém a leitura clara para o visitante."
+        "A oferta principal fica organizada para facilitar o contato pelo WhatsApp."
     },
     coverage: {
       eyebrow: "Cobertura",
       title: "Áreas atendidas e regiões prioritárias",
       description:
-        "Este bloco serve para mostrar cidades, bairros, regiões ou qualquer delimitação geográfica importante para SEO local."
+        "Cidades, bairros e rotas atendidas pela Master Guincho em Ituiutaba e região."
     },
     differentiators: {
       eyebrow: "Diferenciais",
       title: "Pontos de valor que ajudam na decisão",
       description:
-        "A lista abaixo destaca sinais de confiança, prontidão e cobertura real da operação.",
+        "Sinais de confiança, prontidão e cobertura real da operação.",
       items: [
         {
           title: "Atendimento 24h",
@@ -110,8 +110,8 @@ export const homeDataTemplate: HomeDataTemplate = {
       eyebrow: "Contato",
       title: "Precisa de guincho agora?",
       description:
-        "Use este fechamento para levar o visitante direto ao WhatsApp ou para consultar a cobertura.",
-      primaryLabel: "Chamar no WhatsApp",
+        "Fale no WhatsApp, envie sua localização e confirme o atendimento na sua cidade.",
+      primaryLabel: "Chamar guincho agora",
       secondaryLabel: "Ver no Google"
     }
   }

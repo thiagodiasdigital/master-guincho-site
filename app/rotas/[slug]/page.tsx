@@ -27,17 +27,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const pageUrl = `${siteConfigTemplate.siteUrl.replace(/\/$/, "")}/rotas/${route.slug}/`;
+  const state = route.state ?? "MG";
+  const pageTitle = `Guincho 24h em ${route.title}, ${state} | ${siteConfigTemplate.siteName}`;
 
   return {
-    title: `${route.title} | ${siteConfigTemplate.siteName}`,
-    description: route.routeSummary,
+    title: pageTitle,
+    description: `A Master Guincho atende ${route.title}, ${state}, com guincho, reboque e auto socorro conforme disponibilidade da operação. Envie sua localização pelo WhatsApp.`,
     alternates: {
       canonical: `/rotas/${route.slug}/`
     },
     openGraph: {
       url: pageUrl,
-      title: `${route.title} | ${siteConfigTemplate.siteName}`,
-      description: route.routeSummary,
+      title: pageTitle,
+      description: `A Master Guincho atende ${route.title}, ${state}, com guincho, reboque e auto socorro conforme disponibilidade da operação. Envie sua localização pelo WhatsApp.`,
       type: "website",
       locale: "pt_BR",
       images: [
@@ -61,6 +63,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
   }
 
   const pageUrl = `${siteConfigTemplate.siteUrl.replace(/\/$/, "")}/rotas/${route.slug}/`;
+  const state = route.state ?? "MG";
   const whatsapp = buildWhatsAppUrl({
     phone: siteConfigTemplate.phone,
     message: siteConfigTemplate.primaryCta.message
@@ -72,7 +75,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
       {
         "@id": `${pageUrl}#webpage`,
         "@type": "WebPage",
-        name: route.title,
+        name: `Guincho 24h em ${route.title}, ${state}`,
         url: pageUrl,
         isPartOf: {
           "@id": `${siteConfigTemplate.siteUrl}/#website`
@@ -82,7 +85,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
       {
         "@id": `${pageUrl}#service`,
         "@type": "Service",
-        name: route.title,
+        name: `Guincho 24h em ${route.title}, ${state}`,
         description: route.routeSummary,
         provider: {
           "@type": "Organization",
@@ -152,7 +155,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
               {route.shortTitle}
             </p>
             <h1 className="mt-4 max-w-5xl text-4xl font-black leading-tight md:text-6xl">
-              {route.title}
+              Guincho 24h em {route.title}, {route.state ?? "MG"}
             </h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-white/82">{route.intro}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -176,17 +179,16 @@ export default async function RouteDetailPage({ params }: PageProps) {
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Contexto geográfico
+                A Master Guincho atende esta cidade?
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Página de cobertura local
+                Cobertura local e regional
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>{route.routeSummary}</p>
               <p>
-                Esta página foi estruturada para servir como rota ou cidade real, sem
-                depender de cópia genérica.
+                A cidade entra como área atendida conforme disponibilidade da operação e do deslocamento da equipe.
               </p>
             </div>
           </div>
@@ -195,7 +197,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
         <section className="bg-brand-mist px-4 py-16 md:px-8">
           <div className="mx-auto grid max-w-7xl gap-5 lg:grid-cols-3">
             <article className="rounded-lg bg-white p-6 shadow-soft">
-              <h2 className="text-2xl font-black text-brand-deep">Demandas comuns</h2>
+              <h2 className="text-2xl font-black text-brand-deep">Quais serviços podem ser solicitados</h2>
               <ul className="mt-5 grid gap-3 leading-7 text-slate-700">
                 {route.demand.map((item) => (
                   <li key={item}>{item}</li>
@@ -203,7 +205,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
               </ul>
             </article>
             <article className="rounded-lg bg-white p-6 shadow-soft">
-              <h2 className="text-2xl font-black text-brand-deep">Serviços relacionados</h2>
+              <h2 className="text-2xl font-black text-brand-deep">Quais veículos podem ser atendidos</h2>
               <ul className="mt-5 grid gap-3 leading-7 text-slate-700">
                 {route.serviceFit.map((item) => (
                   <li key={item}>{item}</li>
@@ -211,7 +213,7 @@ export default async function RouteDetailPage({ params }: PageProps) {
               </ul>
             </article>
             <article className="rounded-lg bg-white p-6 shadow-soft">
-              <h2 className="text-2xl font-black text-brand-deep">Cobertura</h2>
+              <h2 className="text-2xl font-black text-brand-deep">Como chamar pelo WhatsApp</h2>
               <ul className="mt-5 grid gap-3 leading-7 text-slate-700">
                 {route.coverage.map((item) => (
                   <li key={item}>{item}</li>
@@ -225,10 +227,10 @@ export default async function RouteDetailPage({ params }: PageProps) {
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-2">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Notas operacionais
+                O que informar para agilizar o atendimento
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Como esta cobertura atende a localidade
+                Envie localização, veículo e destino
               </h2>
               <div className="mt-8 grid gap-3">
                 {route.operationalNotes.map((note) => (
@@ -240,10 +242,10 @@ export default async function RouteDetailPage({ params }: PageProps) {
             </div>
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Próximos serviços
+                Relação com Ituiutaba e região
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Relacione cobertura e oferta
+                Ituiutaba segue como base da operação
               </h2>
               <div className="mt-8 grid gap-3">
                 {route.relatedServices.map((service) => (

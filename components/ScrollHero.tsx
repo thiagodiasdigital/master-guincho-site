@@ -342,7 +342,7 @@ export function ScrollHero() {
               ))}
             </div>
             <p className="mt-4 hidden max-w-[58ch] text-sm font-bold leading-7 text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.76)] md:block">
-              Estrutura premium para apresentar guincho, reboque, auto socorro e facilitar a conversao do visitante.
+              Guincho, reboque e auto socorro 24h em Ituiutaba e região, com atendimento para carros, motos, caminhonetes, vans, caminhões, cargas especiais, embarcações e máquinas agrícolas.
             </p>
             <a
               href={whatsappHref}

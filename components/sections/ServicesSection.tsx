@@ -52,7 +52,7 @@ export function ServicesSection({ section, eyebrow, items, fallbackHref }: Servi
           href="/servicos/"
           className="mt-10 inline-flex rounded-md bg-brand-deep px-6 py-3 text-sm font-black uppercase text-white transition hover:bg-brand-blue focus:outline-none focus:ring-4 focus:ring-brand-blue/25"
         >
-          Ver todos os servicos
+          Ver todos os serviços
         </Link>
       </div>
     </section>

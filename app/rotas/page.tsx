@@ -15,7 +15,7 @@ const whatsapp = buildWhatsAppUrl({
 export const metadata: Metadata = {
   title: `Cobertura e rotas | ${siteConfigTemplate.siteName}`,
   description:
-    "Hub de cobertura geográfica da Master Guincho com páginas de cidades e prioridades geo.",
+    "Cidades atendidas pela Master Guincho em Ituiutaba e região, com rotas e cobertura local.",
   alternates: {
     canonical: "/rotas/"
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     title: `Cobertura e rotas | ${siteConfigTemplate.siteName}`,
     description:
-      "Estrutura para representar localidade, cobertura e contexto geográfico da Master Guincho.",
+      "Páginas de cidade para confirmar cobertura, solicitar atendimento e falar com a operação.",
     type: "website",
     locale: "pt_BR",
     images: [
@@ -128,24 +128,21 @@ export default function RoutesPage() {
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em] text-brand-blue">
-                Cobertura operacional
+                Cobertura por cidade
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Localidades reais para copiar e adaptar
+                Cidades atendidas pela Master Guincho
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>
-                Este hub organiza as cidades atendidas pela Master Guincho e serve como
-                ponte entre busca local, cobertura e conversão.
+                Cada cidade tem uma página própria para confirmar cobertura, serviços e o melhor caminho para chamar pelo WhatsApp.
               </p>
               <p>
-                Cada item da lista pode receber ajustes por cidade, rodovia ou área de
-                prioridade sem alterar a apresentação da página.
+                As páginas ajudam o cliente a entender se o atendimento está disponível na cidade ou na rota informada.
               </p>
               <p>
-                A relação entre cobertura, serviços e CTA é mantida por configuração e
-                dados do projeto.
+                Ituiutaba continua como base da operação e as cidades vizinhas entram como áreas atendidas conforme disponibilidade.
               </p>
             </div>
           </div>
