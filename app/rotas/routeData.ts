@@ -34,9 +34,9 @@ export const routePages: RoutePage[] = [
     slug: "ituiutaba",
     title: "Ituiutaba",
     shortTitle: "Cidade base",
-    intro: "Ituiutaba é a cidade-base da Master Guincho e concentra a leitura principal da cobertura.",
+    intro: "Ituiutaba é a cidade-base da Master Guincho e concentra o atendimento principal.",
     routeSummary:
-      "Ituiutaba é a cidade-base da operação, o que permite orientar o visitante de forma rápida quando ele busca um guincho ou auto socorro com resposta imediata.",
+      "Ituiutaba é a cidade-base da operação e ajuda a orientar quem busca guincho ou auto socorro com rapidez.",
     demand: [
       "Pane no centro e em bairros da cidade.",
       "Retirada de veículos com urgência.",
@@ -61,7 +61,7 @@ export const routePages: RoutePage[] = [
         answer: "Sim. A operação parte de Ituiutaba e a cobertura local se organiza a partir da cidade."
       },
       {
-        question: "A página pode receber dados de tempo de resposta?",
+        question: "A cidade pode receber confirmação de disponibilidade?",
         answer: "Pode, desde que a informação seja confirmada e mantida atualizada."
       }
     ]
@@ -72,7 +72,7 @@ export const routePages: RoutePage[] = [
     shortTitle: "Capinópolis",
     intro: "Cobertura regional com resposta direta para ocorrências urbanas e rodoviárias.",
     routeSummary:
-      "Capinópolis entra como cidade de apoio na estratégia de cobertura, servindo para quem precisa de atendimento rápido sem perder o contexto local.",
+      "Capinópolis entra como cidade atendida para quem precisa de atendimento rápido sem perder o contexto local.",
     demand: [
       "Veículo parado na cidade.",
       "Remoção por pane ou sinistro.",
@@ -81,8 +81,8 @@ export const routePages: RoutePage[] = [
     serviceFit: ["Guincho 24h", "Auto socorro"],
     coverage: [
       "Cidade atendida pela cobertura regional.",
-      "Pode representar busca por cidade + guincho.",
-      "Boa para leads que precisam de resposta rápida."
+      "Atende quem busca guincho ou reboque na cidade.",
+      "Útil para quem precisa de resposta rápida."
     ],
     operationalNotes: [
       "Atendimento sob disponibilidade para Capinópolis.",
@@ -97,8 +97,8 @@ export const routePages: RoutePage[] = [
         answer: "Sim. A cidade faz parte da área atendida da Master Guincho."
       },
       {
-        question: "A página deve priorizar urgência?",
-        answer: "Sim. Para auto socorro, o foco é reduzir o tempo até o contato."
+        question: "O texto deve priorizar atendimento rápido?",
+        answer: "Sim. Para auto socorro, a prioridade é reduzir o tempo até o contato."
       }
     ]
   },
@@ -106,9 +106,9 @@ export const routePages: RoutePage[] = [
     slug: "gurinhata",
     title: "Gurinhatã",
     shortTitle: "Gurinhatã",
-    intro: "Gurinhatã faz parte da cobertura regional da Master Guincho e pode receber atendimento conforme disponibilidade.",
+    intro: "Gurinhatã faz parte da cobertura regional da Master Guincho e pode receber atendimento conforme a ocorrência e a disponibilidade.",
     routeSummary:
-      "Gurinhatã funciona como página de cobertura local para orientar o visitante que precisa de guincho, reboque ou auto socorro com rapidez.",
+      "Gurinhatã entra como cidade atendida para orientar quem precisa de guincho, reboque ou auto socorro com rapidez.",
     demand: [
       "Atendimento emergencial na cidade.",
       "Retirada de veículo sem rodar.",
@@ -118,7 +118,7 @@ export const routePages: RoutePage[] = [
     coverage: [
       "Cidade dentro do raio de atendimento.",
       "Cobertura voltada a deslocamento e retirada.",
-      "Contexto local para SEO e GEO."
+      "Atendimento local com foco em urgência e deslocamento seguro."
     ],
     operationalNotes: [
       "Atendimento para Gurinhatã conforme disponibilidade.",
@@ -192,7 +192,7 @@ export const routePages: RoutePage[] = [
     shortTitle: "Cachoeira Dourada",
     intro: "Página de cobertura do lado mineiro para busca local e acionamento rápido.",
     routeSummary:
-      "Cachoeira Dourada MG ajuda a distribuir melhor a presença geo da Master Guincho na região e reforça a leitura por cidade.",
+      "Cachoeira Dourada MG reforça a presença regional da Master Guincho e ajuda a deixar claro o atendimento por cidade.",
     demand: ["Atendimento local", "Remoção urgente", "Apoio rodoviário"],
     serviceFit: ["Guincho 24h", "Auto socorro"],
     coverage: ["Cidade mineira atendida", "Cobertura regional", "Resposta pelo WhatsApp"],
@@ -216,7 +216,7 @@ export const routePages: RoutePage[] = [
     shortTitle: "Santa Vitória",
     intro: "Cobertura para demandas da cidade e do entorno.",
     routeSummary:
-      "Santa Vitória amplia a base geo do site, ajudando a cobrir consultas de proximidade e reforçando a autoridade local.",
+      "Santa Vitória amplia a cobertura regional e ajuda a responder consultas de proximidade com mais clareza.",
     demand: ["Veículo parado", "Solicitação rápida", "Retirada segura"],
     serviceFit: ["Guincho 24h", "Reboque 24h"],
     coverage: ["Cidade atendida", "Cobertura em demanda", "Resposta via WhatsApp"],
@@ -264,7 +264,7 @@ export const routePages: RoutePage[] = [
     shortTitle: "Campina Verde",
     intro: "Cobertura para demandas locais e regionais.",
     routeSummary:
-      "Campina Verde amplia a presença da Master Guincho em buscas geo e ajuda a conectar a oferta principal com a cidade.",
+      "Campina Verde amplia a cobertura regional e conecta a operação com a cidade de forma clara.",
     demand: ["Guincho urgente", "Reboque programado", "Socorro em estrada"],
     serviceFit: ["Guincho 24h", "Reboque 24h"],
     coverage: ["Cidade atendida", "Cobertura em demanda", "Resposta via WhatsApp"],
@@ -313,7 +313,7 @@ export const routePages: RoutePage[] = [
     shortTitle: "Inaciolândia",
     intro: "Página regional para captação local e atendimento de urgência.",
     routeSummary:
-      "Inaciolândia serve para reforçar a capilaridade geo da Master Guincho e dar saída útil para buscas por cidade.",
+      "Inaciolândia reforça a cobertura regional e dá uma saída prática para quem precisa de atendimento na cidade.",
     demand: ["Guincho local", "Socorro rápido", "Transporte para destino combinado"],
     serviceFit: ["Auto socorro", "Guincho 24h"],
     coverage: ["Cidade atendida", "Cobertura regional", "Resposta direta"],
@@ -338,7 +338,7 @@ export const routePages: RoutePage[] = [
     state: "GO",
     intro: "Cidade estratégica para cobertura regional e busca por socorro rápido.",
     routeSummary:
-      "Itumbiara tem peso importante na cobertura regional e ajuda a distribuir a autoridade do site em uma cidade relevante do entorno.",
+      "Itumbiara tem peso importante na cobertura regional e ajuda a reforçar o atendimento no entorno.",
     demand: ["Atendimento urgente", "Remoção segura", "Guincho para ida e volta"],
     serviceFit: ["Guincho 24h", "Reboque 24h", "Auto socorro"],
     coverage: ["Cidade atendida", "Área estratégica", "Conexão regional"],
@@ -362,7 +362,7 @@ export const routePages: RoutePage[] = [
     shortTitle: "Uberlândia",
     intro: "Uberlândia integra a cobertura regional da Master Guincho conforme disponibilidade da operação.",
     routeSummary:
-      "Uberlândia entra como cidade de cobertura ampliada, importante para busca local e para reforçar a autoridade regional da Master Guincho.",
+      "Uberlândia entra como cidade de cobertura ampliada para quem precisa de atendimento regional.",
     demand: ["Transporte de veículo", "Atendimento sob demanda", "Socorro na cidade ou rodovia"],
     serviceFit: ["Guincho 24h", "Auto socorro"],
     coverage: ["Cidade atendida", "Cobertura expandida", "Acionamento rápido"],
@@ -386,7 +386,7 @@ export const routePages: RoutePage[] = [
     shortTitle: "Araporã",
     intro: "Araporã faz parte da cobertura regional da Master Guincho com foco em atendimento rápido.",
     routeSummary:
-      "Araporã recebe destaque especial porque a leitura local depende de hiperlocalismo, resposta imediata e contexto de acesso rápido para quem está parado e precisa de ajuda agora.",
+      "Araporã recebe atenção especial porque o acesso rápido faz diferença para quem está parado e precisa de ajuda agora.",
     demand: [
       "Ocorrência urgente com necessidade de resposta curta.",
       "Atendimento em trecho rodoviário ou acesso da cidade.",
@@ -394,12 +394,12 @@ export const routePages: RoutePage[] = [
     ],
     serviceFit: ["Guincho 24h", "Auto socorro", "Reboque 24h"],
     coverage: [
-      "Cidade de prioridade geo.",
+      "Cidade com atenção especial da operação.",
       "Cobertura com foco em urgência.",
-      "Página pensada para busca imediata."
+      "Atendimento claro para busca imediata."
     ],
     operationalNotes: [
-      "Araporã conta com página dedicada de cobertura regional.",
+      "Araporã conta com cobertura dedicada para quem precisa de atendimento rápido na cidade ou na rodovia.",
       "Atendimento sob disponibilidade da operação.",
       "Envie localização e tipo de veículo pelo WhatsApp."
     ],
@@ -407,12 +407,12 @@ export const routePages: RoutePage[] = [
     references: [],
     faq: [
       {
-        question: "Araporã tem página própria por prioridade geo?",
-        answer: "Sim. A página foi pensada para receber destaque por causa da intenção de busca imediata."
+        question: "Araporã tem atendimento dedicado?",
+        answer: "Sim. A cidade tem cobertura dedicada para quem precisa de atendimento imediato."
       },
       {
-        question: "Essa página deve ser curta e direta?",
-        answer: "Sim. Em contexto de urgência, o usuário precisa encontrar contato e resposta sem ruído."
+        question: "O usuário encontra contato rápido na cidade?",
+        answer: "Sim. A prioridade é deixar claro o canal de contato e o contexto da ocorrência."
       }
     ]
   }

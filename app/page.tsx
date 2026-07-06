@@ -70,31 +70,31 @@ const socialProfiles = [
     label: "Instagram",
     href: instagram,
     icon: "instagram",
-    text: "Veja fotos reais da operação e novidades da Master Guincho."
+    text: "Veja fotos reais da operação e do atendimento no dia a dia."
   },
   {
     label: "LinkedIn",
     href: linkedin,
     icon: "linkedin",
-    text: "Veja a presença profissional e os sinais institucionais da empresa."
+    text: "Veja a presença profissional da empresa."
   },
   {
     label: "Pinterest",
     href: pinterest,
     icon: "pinterest",
-    text: "Consulte referências visuais, inspirações e materiais de apoio."
+    text: "Consulte referências visuais e materiais de apoio."
   },
   {
     label: "TikTok",
     href: tiktok,
     icon: "tiktok",
-    text: "Acompanhe conteúdos rápidos sobre estrutura, bastidores e entrega."
+    text: "Veja vídeos curtos com atendimentos, deslocamentos e situações reais da operação."
   },
   {
     label: "X",
     href: xProfile,
     icon: "x",
-    text: "Siga atualizações curtas sobre posicionamento e novidades."
+    text: "Siga atualizações curtas sobre a operação e novidades."
   },
   {
     label: "YouTube",
@@ -106,7 +106,7 @@ const socialProfiles = [
     label: "Facebook",
     href: facebook,
     icon: "facebook",
-    text: "Acesse a página social da Master Guincho."
+    text: "Acesse o perfil social da Master Guincho."
   },
   {
     label: "WhatsApp",

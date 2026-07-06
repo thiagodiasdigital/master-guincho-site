@@ -22,132 +22,132 @@ export const showcaseDataTemplate: ShowcaseDataTemplate = {
     eyebrow: "Vitrine",
     title: "Tipos de veículo e carga atendidos",
     description:
-      "Imagens reais de moto, carro, caminhão, embarcação e outros cenários atendidos pela Master Guincho."
+      "Confira os tipos de atendimento disponíveis para moto, carro, caminhão, embarcação e outras demandas da operação."
   },
   items: [
     {
       title: "Guincho para Moto",
-      description: "Guincho para moto com reboque, auto socorro e atendimento 24h.",
+      description: "Pane, queda, sinistro ou deslocamento para oficina e residência com apoio 24h.",
       image: "/images/master-guincho-moto-guincho.png",
       alt: "Guincho para moto da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/moto-guincho/",
       tags: ["moto", "guincho", "24h"]
     },
     {
       title: "Guincho para Carro",
-      description: "Reboque de carro com resposta rápida e transporte seguro.",
+      description: "Carro parado, sem partida, com pane ou após colisão? A retirada é feita com cuidado.",
       image: "/images/master-guincho-carro-guincho.png",
       alt: "Guincho para carro da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/carro-guincho/",
       tags: ["carro", "reboque", "auto socorro"]
     },
     {
       title: "Guincho para Caminhão",
-      description: "Guincho para caminhão com foco em peso, suporte e segurança.",
+      description: "Atendimento para caminhão parado em rota, pátio, cidade ou acesso rodoviário.",
       image: "/images/master-guincho-caminhao-guincho.png",
       alt: "Guincho para caminhão da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/caminhao-guincho/",
       tags: ["caminhão", "pesados", "guincho"]
     },
     {
       title: "Guincho para Caminhonete",
-      description: "Reboque para caminhonete com cobertura regional e 24h.",
+      description: "Apoio para caminhonete de uso urbano, rural, de trabalho ou viagem regional.",
       image: "/images/master-guincho-caminhonete-guincho.png",
       alt: "Guincho para caminhonete da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/caminhonete-guincho/",
       tags: ["caminhonete", "guincho", "reboque"]
     },
     {
       title: "Guincho para Embarcação",
-      description: "Transporte de barco e embarcação com apoio especializado.",
+      description: "Barco, lancha ou embarcação transportada com cuidado e orientação prévia.",
       image: "/images/master-guincho-barco-guincho.png",
       alt: "Guincho para embarcação da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/embarcacao-guincho/",
       tags: ["embarcação", "barco", "especial"]
     },
     {
       title: "Guincho para Van",
-      description: "Guincho para van com contato rápido e remoção segura.",
+      description: "Van imobilizada, com pane ou necessidade de seguir para oficina, base ou destino combinado.",
       image: "/images/master-guincho-van-guincho.png",
       alt: "Guincho para van da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/van-guincho/",
       tags: ["van", "guincho", "24h"]
     },
     {
       title: "Guincho para Utilitários",
-      description: "Guincho para utilitários de trabalho com resposta objetiva.",
+      description: "Veículos de trabalho e carga leve com remoção segura em cidade ou região.",
       image: "/images/master-guincho-utilitarios.png",
       alt: "Guincho para utilitários da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/utilitarios-guincho/",
       tags: ["utilitários", "reboque", "auto socorro"]
     },
     {
       title: "Veículos Especiais",
-      description: "Guincho para veículos especiais e demanda fora do padrão.",
+      description: "Atendimento sob avaliação para veículos fora do padrão e deslocamentos especiais.",
       image: "/images/master-guincho-veiculos-especiais.png",
       alt: "Guincho para veículos especiais da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/veiculos-especiais/",
       tags: ["veículos especiais", "guincho", "carga"]
     },
     {
       title: "Cargas Especiais",
-      description: "Reboque para cargas especiais com foco em transporte e cuidado.",
+      description: "Transporte planejado para cargas que exigem cuidado, origem e destino combinados.",
       image: "/images/master-guincho-cargas-especiais.png",
       alt: "Reboque para cargas especiais da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/cargas-especiais/",
       tags: ["cargas especiais", "reboque", "especial"]
     },
     {
       title: "Máquina Agrícola",
-      description: "Guincho para máquina agrícola com apoio regional e 24h.",
+      description: "Máquina parada no campo, na estrada ou na cidade com apoio para deslocamento seguro.",
       image: "/images/master-guincho-maquina-agricola.png",
       alt: "Guincho para máquina agrícola da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/maquina-agricola/",
       tags: ["agrícola", "máquina", "guincho"]
     },
     {
       title: "Implemento Agrícola",
-      description: "Guincho para implemento agrícola com suporte sob demanda.",
+      description: "Implemento agrícola transportado com orientação prévia e cuidado na movimentação.",
       image: "/images/master-guincho-implemento-agricola.png",
       alt: "Guincho para implemento agrícola da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/implemento-agricola/",
       tags: ["agrícola", "implemento", "reboque"]
     },
     {
       title: "Colecionadores",
-      description: "Guincho para veículos de colecionadores com cuidado extra.",
+      description: "Veículos antigos, raros ou de valor afetivo com transporte cuidadoso.",
       image: "/images/master-guincho-veiculos-colecionadores.png",
       alt: "Guincho para veículos de colecionadores da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/veiculos-colecionadores/",
       tags: ["colecionadores", "veículos", "especial"]
     },
     {
       title: "Dois Veículos",
-      description: "Guincho para dois veículos com planejamento e logística.",
+      description: "Condição avaliada caso a caso para transporte combinado de duas unidades.",
       image: "/images/master-guincho-guincho-para-dois-veiculos.png",
       alt: "Guincho para dois veículos da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/guincho-para-dois-veiculos/",
       tags: ["dois veículos", "guincho", "logística"]
     },
     {
       title: "Guincho para Pesados",
-      description: "Guincho para pesados com força, suporte e segurança.",
+      description: "Atendimento para veículos pesados com foco em segurança e logística da remoção.",
       image: "/images/master-guincho-guincho-pesados.png",
       alt: "Guincho para pesados da Master Guincho",
-      ctaLabel: "Ver página",
+      ctaLabel: "Ver detalhes",
       href: "/vitrine/guincho-para-pesados/",
       tags: ["pesados", "guincho", "reboque"]
     }

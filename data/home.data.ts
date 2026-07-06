@@ -51,66 +51,63 @@ export const homeDataTemplate: HomeDataTemplate = {
   sections: {
     intro: {
       eyebrow: "Apresentação",
-      title: "Atendimento 24h para quem precisa de ajuda na estrada ou na cidade",
+      title: "Ajuda 24h para quem ficou parado na cidade ou na estrada",
       copy: [
-        "A Master Guincho atende ocorrências com agilidade, organização e foco em segurança, conectando o cliente ao canal certo no menor tempo possível.",
-        "Guincho, reboque e auto socorro 24h em Ituiutaba e região, com contato rápido pelo WhatsApp."
+        "A Master Guincho atende com orientação direta, cuidado no transporte e apoio para quem precisa sair de uma pane, colisão ou imprevisto sem complicação.",
+        "Guincho, reboque, auto socorro e táxi 24h em Ituiutaba e região, com contato rápido pelo WhatsApp."
       ]
     },
     showcase: {
       eyebrow: "Vitrine",
       title: "Vitrine por tipo de veículo e carga",
       description:
-        "Páginas individuais para moto, carro, caminhão, embarcação e outros veículos atendidos."
+        "Moto, carro, caminhão, utilitário, máquina agrícola, embarcação e outras demandas atendidas pela operação."
     },
     services: {
       eyebrow: "Serviços",
       title: "Serviços com atendimento direto",
       description:
-        "A oferta principal fica organizada para facilitar o contato pelo WhatsApp."
+        "Escolha o atendimento mais adequado para o seu caso e chame a Master Guincho pelo WhatsApp."
     },
     coverage: {
       eyebrow: "Cobertura",
       title: "Áreas atendidas e regiões prioritárias",
       description:
-        "Cidades, bairros e rotas atendidas pela Master Guincho em Ituiutaba e região."
+        "Ituiutaba é a base da operação e o atendimento alcança cidades vizinhas, rotas regionais e trechos de rodovia conforme a ocorrência."
     },
     differentiators: {
       eyebrow: "Diferenciais",
       title: "Pontos de valor que ajudam na decisão",
-      description:
-        "Sinais de confiança, prontidão e cobertura real da operação.",
+      description: "Sinais de confiança para quem precisa resolver a ocorrência sem perda de tempo.",
       items: [
         {
           title: "Atendimento 24h",
-          description: "Canal pronto para emergências, de dia ou de noite."
+          description: "Disponibilidade para atender urgências a qualquer hora."
         },
         {
           title: "Resposta rápida",
-          description: "Reduz a espera em ocorrências na cidade ou na rodovia."
+          description: "Contato direto para reduzir o tempo parado."
         },
         {
           title: "Frota adequada",
-          description: "Veículos para leves, pesados, especiais e passageiros."
+          description: "Estrutura para carros, motos, pesados, especiais e passageiros."
         },
         {
           title: "Cobertura regional",
-          description: "Atende Ituiutaba, cidades vizinhas e rotas prioritárias."
+          description: "Atende Ituiutaba, cidades vizinhas e rotas regionais."
         }
       ]
     },
     faq: {
       eyebrow: "FAQ",
       title: "Perguntas frequentes",
-      description:
-        "As perguntas e respostas abaixo ajudam o visitante a entender o atendimento e a cobertura.",
+      description: "Respostas diretas para dúvidas comuns sobre atendimento, cobertura e acionamento.",
       items: faqTemplate
     },
     finalCta: {
       eyebrow: "Contato",
       title: "Precisa de guincho agora?",
-      description:
-        "Fale no WhatsApp, envie sua localização e confirme o atendimento na sua cidade.",
+      description: "Envie sua localização no WhatsApp e confirme o atendimento para o seu caso.",
       primaryLabel: "Chamar guincho agora",
       secondaryLabel: "Ver no Google"
     }

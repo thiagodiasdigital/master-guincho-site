@@ -33,10 +33,10 @@ export type HeroDataTemplate = {
 
 export const heroDataTemplate: HeroDataTemplate = {
   eyebrow: "Atendimento 24h em Ituiutaba e região",
-  title: "Guincho e auto socorro com resposta imediata",
+  title: "Guincho, reboque, auto socorro e táxi 24h",
   subtitle:
-    "Atendimento para carros, motos, caminhonetes, vans, caminhões, cargas especiais, veículos especiais, embarcações e máquinas.",
-  badges: ["Guincho 24h", "Reboque", "Auto socorro", "Táxi"],
+    "Atendimento para carros, motos, caminhonetes, vans, caminhões, utilitários, veículos especiais, embarcações, máquinas e cargas especiais em Ituiutaba e região.",
+  badges: ["Guincho 24h", "Reboque 24h", "Auto socorro", "Táxi 24h"],
   primaryCta: {
     label: "Chamar no WhatsApp",
     message: "Olá, preciso de um guincho agora."
@@ -60,7 +60,7 @@ export const heroDataTemplate: HeroDataTemplate = {
     frameCount: 90
   },
   labels: {
-    section: "Hero premium da Master Guincho",
+    section: "Atendimento principal da Master Guincho",
     scrollIndicator: "Role para ver mais"
   }
 };

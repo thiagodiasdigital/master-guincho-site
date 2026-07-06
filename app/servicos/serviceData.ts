@@ -164,7 +164,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         question: "O foco aqui é a rapidez?",
-        answer: "Sim. A página foi escrita para destacar atendimento emergencial e contato rápido."
+        answer: "Sim. O texto destaca atendimento emergencial e contato rápido."
       }
     ]
   },

@@ -15,15 +15,15 @@ const whatsapp = buildWhatsAppUrl({
 export const metadata: Metadata = {
   title: `Serviços | ${siteConfigTemplate.siteName}`,
   description:
-    "Serviços da Master Guincho em Ituiutaba e região, com páginas para guincho, reboque, auto socorro e táxi 24h.",
+    "Serviços da Master Guincho em Ituiutaba e região, com guincho, reboque, auto socorro e táxi 24h.",
   alternates: {
     canonical: "/servicos/"
   },
-  openGraph: {
+    openGraph: {
     url: pageUrl,
     title: `Serviços | ${siteConfigTemplate.siteName}`,
-    description:
-      "Serviços da Master Guincho em Ituiutaba e região, com contato rápido pelo WhatsApp.",
+      description:
+      "Guincho, reboque, auto socorro e táxi 24h em Ituiutaba e região, com contato rápido pelo WhatsApp.",
     type: "website",
     locale: "pt_BR",
     images: [
@@ -161,7 +161,7 @@ export default function ServicesPage() {
                 Cada serviço explica o problema que resolve, quando chamar e como falar com a operação pelo WhatsApp.
               </p>
               <p>
-                Use a página certa para pedir guincho, reboque, auto socorro ou táxi 24h em Ituiutaba e região.
+                Use o atendimento certo para pedir guincho, reboque, auto socorro ou táxi 24h em Ituiutaba e região.
               </p>
               <p>
                 O objetivo é facilitar a chamada e deixar clara a cobertura da Master Guincho.

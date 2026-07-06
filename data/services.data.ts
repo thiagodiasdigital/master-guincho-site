@@ -22,12 +22,12 @@ export const servicesDataTemplate: ServicesDataTemplate = {
     eyebrow: "Serviços",
     title: "Soluções principais da Master Guincho",
     description:
-      "Serviços organizados para orientar o cliente com clareza, rapidez e foco em conversão."
+      "Escolha o atendimento certo para pane, colisão, remoção, deslocamento de passageiros ou apoio emergencial em Ituiutaba e região."
   },
   items: [
     {
       title: "Guincho 24h",
-      description: "Remoção rápida para carros, motos, caminhonetes, vans e utilitários.",
+      description: "Remoção segura para veículos leves quando o carro ou a moto não pode seguir viagem.",
       href: "/servicos/guincho-24h/",
       ctaLabel: "Chamar agora",
       icon: "support",
@@ -36,7 +36,7 @@ export const servicesDataTemplate: ServicesDataTemplate = {
     },
     {
       title: "Reboque",
-      description: "Atendimento para pane, sinistro, transporte e deslocamento programado.",
+      description: "Transporte seguro para veículos parados, sinistrados ou com deslocamento combinado.",
       href: "/servicos/reboque-24h/",
       ctaLabel: "Solicitar reboque",
       icon: "star",
@@ -45,7 +45,7 @@ export const servicesDataTemplate: ServicesDataTemplate = {
     },
     {
       title: "Auto socorro",
-      description: "Assistência emergencial na estrada, na cidade e em rotas regionais.",
+      description: "Ajuda rápida para quem ficou parado por pane, bateria, pneu ou imobilização.",
       href: "/servicos/auto-socorro/",
       ctaLabel: "Pedir socorro",
       icon: "chat",
@@ -54,7 +54,7 @@ export const servicesDataTemplate: ServicesDataTemplate = {
     },
     {
       title: "Táxi",
-      description: "Transporte de passageiros sob demanda para deslocamentos locais e regionais.",
+      description: "Transporte de passageiros para seguir viagem, voltar para casa ou se deslocar na região.",
       href: "/servicos/taxi-24h/",
       ctaLabel: "Chamar táxi",
       icon: "location",
