@@ -279,6 +279,10 @@ export function ScrollHero() {
           }}
         />
 
+        <div className="pointer-events-none absolute bottom-[-4%] right-[-2%] z-[6] h-[23vw] w-[23vw] min-h-[120px] min-w-[120px] max-h-[300px] max-w-[300px] rounded-full bg-[radial-gradient(circle_at_72%_72%,rgba(244,244,244,0.78)_0%,rgba(244,244,244,0.42)_26%,rgba(232,235,240,0.18)_48%,rgba(255,255,255,0)_76%)] blur-2xl" />
+        <div className="pointer-events-none absolute bottom-[1%] right-[1.1%] z-[7] h-[13vw] w-[13vw] min-h-[64px] min-w-[64px] max-h-[164px] max-w-[164px] rounded-full bg-[radial-gradient(circle_at_60%_60%,rgba(255,255,255,0.42)_0%,rgba(245,245,245,0.18)_36%,rgba(255,255,255,0)_74%)] blur-xl" />
+        <div className="pointer-events-none absolute bottom-0 right-0 z-[6] h-[22vw] w-[28vw] min-h-[130px] min-w-[170px] max-h-[240px] max-w-[360px] bg-[linear-gradient(135deg,rgba(10,12,18,0)_0%,rgba(158,162,168,0.08)_45%,rgba(240,240,240,0.2)_72%,rgba(255,255,255,0.34)_100%)] opacity-80 blur-md" />
+
         <div
           ref={logoLayerRef}
           className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center bg-[#020a26]"
