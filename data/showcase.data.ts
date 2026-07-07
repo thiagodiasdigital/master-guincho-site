@@ -22,7 +22,7 @@ export const showcaseDataTemplate: ShowcaseDataTemplate = {
     eyebrow: "Vitrine",
     title: "Tipos de veículo e carga atendidos",
     description:
-      "Confira os tipos de atendimento disponíveis para moto, carro, caminhão, embarcação e outras demandas da operação."
+      "Confira os tipos de atendimento disponíveis para moto, carro, caminhão, embarcação, transporte de passageiros e outras demandas da operação."
   },
   items: [
     {
@@ -78,6 +78,15 @@ export const showcaseDataTemplate: ShowcaseDataTemplate = {
       ctaLabel: "Ver detalhes",
       href: "/vitrine/van-guincho/",
       tags: ["van", "guincho", "24h"]
+    },
+    {
+      title: "Táxi 24h",
+      description: "Táxi 24h em Ituiutaba e região para passageiros que precisam seguir viagem, voltar para casa ou sair do local com agilidade após pane, colisão ou imprevisto.",
+      image: "/images/master-guincho-taxi.jpeg",
+      alt: "Táxi 24h da Master Guincho em Ituiutaba e região",
+      ctaLabel: "Ver detalhes",
+      href: "/servicos/taxi-24h/",
+      tags: ["taxi 24h", "Ituiutaba", "passageiros"]
     },
     {
       title: "Guincho para Utilitários",
