@@ -21,7 +21,7 @@ export const seoConfigTemplate: SeoConfigTemplate = {
   titleTemplate: "%s",
   defaultDescription:
     "Guincho, reboque e auto socorro 24h em Ituiutaba e região. Atendimento para carros, motos, caminhonetes, vans, caminhões, máquinas e cargas especiais. Chame pelo WhatsApp.",
-  canonicalBaseUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://master-guincho.vercel.app",
+  canonicalBaseUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://masterguinchomg.com.br",
   indexable: process.env.NEXT_PUBLIC_INDEXABLE ? process.env.NEXT_PUBLIC_INDEXABLE === "true" : true,
   defaultOgImage: "/images/master-guincho-fallback-hero-16x9.png",
   robots: {
