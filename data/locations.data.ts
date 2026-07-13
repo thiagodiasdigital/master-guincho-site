@@ -21,13 +21,13 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     eyebrow: "Cobertura",
     title: "Cidades, áreas e regiões atendidas",
     description:
-      "Cobertura da Master Guincho para cidades, bairros, regiões, unidades ou áreas atendidas."
+      "Ituiutaba é a base da operação e as cidades vizinhas entram conforme a localidade, a ocorrência e o destino informado."
   },
   items: [
     {
       name: "Ituiutaba",
       slug: "ituiutaba",
-      description: "Cidade-base da operação e ponto principal de atendimento.",
+      description: "Base principal da Master Guincho, com atendimento local e regional.",
       href: "/rotas/ituiutaba/",
       type: "cidade",
       highlighted: true
@@ -35,7 +35,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Capinópolis",
       slug: "capinopolis",
-      description: "Cobertura regional com prioridade para demanda urbana e rodoviária.",
+      description: "Atendimento regional para quem precisa de guincho, reboque ou auto socorro na cidade ou na rodovia.",
       href: "/rotas/capinopolis/",
       type: "cidade",
       highlighted: false
@@ -43,7 +43,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Gurinhatã",
       slug: "gurinhata",
-      description: "Atendimento regional para ocorrências locais e deslocamentos.",
+      description: "Apoio para ocorrências locais, deslocamentos curtos e transporte seguro.",
       href: "/rotas/gurinhata/",
       type: "cidade",
       highlighted: false
@@ -51,7 +51,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Canápolis",
       slug: "canapolis",
-      description: "Cidade atendida em cobertura regional do Triângulo Mineiro.",
+      description: "Cidade atendida no eixo regional do Triângulo Mineiro.",
       href: "/rotas/canapolis/",
       type: "cidade",
       highlighted: false
@@ -59,7 +59,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Ipiaçu",
       slug: "ipiacu",
-      description: "Atendimento de apoio para deslocamentos e ocorrências locais.",
+      description: "Atendimento de apoio para deslocamentos, panes e retirada de veículos.",
       href: "/rotas/ipiacu/",
       type: "cidade",
       highlighted: false
@@ -67,7 +67,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Cachoeira Dourada",
       slug: "cachoeira-dourada-mg",
-      description: "Cobertura mineira com suporte em ocorrências urbanas e regionais.",
+      description: "Suporte para ocorrências urbanas e regionais no lado mineiro da cobertura.",
       href: "/rotas/cachoeira-dourada-mg/",
       type: "cidade",
       highlighted: false
@@ -75,7 +75,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Santa Vitória",
       slug: "santa-vitoria",
-      description: "Atendimento regional com foco em agilidade e contato rápido.",
+      description: "Atendimento regional para quem precisa de retirada ou apoio imediato.",
       href: "/rotas/santa-vitoria/",
       type: "cidade",
       highlighted: false
@@ -83,7 +83,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Monte Alegre de Minas",
       slug: "monte-alegre-de-minas",
-      description: "Cidade de cobertura para assistência e reboque sob demanda.",
+      description: "Cidade atendida para assistência, reboque e deslocamentos combinados.",
       href: "/rotas/monte-alegre-de-minas/",
       type: "cidade",
       highlighted: false
@@ -91,7 +91,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Campina Verde",
       slug: "campina-verde",
-      description: "Cobertura regional com apoio para veículos leves e utilitários.",
+      description: "Cobertura regional para veículos leves, utilitários e transporte seguro.",
       href: "/rotas/campina-verde/",
       type: "cidade",
       highlighted: false
@@ -99,7 +99,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Cachoeira Dourada GO",
       slug: "cachoeira-dourada-go",
-      description: "Atendimento regional no eixo goiano da área atendida.",
+      description: "Atendimento no lado goiano da área atendida, conforme a ocorrência.",
       href: "/rotas/cachoeira-dourada-go/",
       type: "cidade",
       highlighted: false
@@ -107,7 +107,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Inaciolândia",
       slug: "inaciolandia",
-      description: "Cobertura de apoio para deslocamentos e socorro rápido.",
+      description: "Apoio para deslocamentos, socorro rápido e remoção de veículos.",
       href: "/rotas/inaciolandia/",
       type: "cidade",
       highlighted: false
@@ -115,7 +115,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Itumbiara",
       slug: "itumbiara",
-      description: "Cidade estratégica para conexão regional com a área de fronteira.",
+      description: "Cidade estratégica para atendimento regional e deslocamentos entre cidades.",
       href: "/rotas/itumbiara/",
       type: "cidade",
       highlighted: false
@@ -131,7 +131,7 @@ export const locationsDataTemplate: LocationsDataTemplate = {
     {
       name: "Araporã",
       slug: "arapora",
-      description: "Prioridade geo com foco em resposta imediata e contexto de rodovia.",
+      description: "Atendimento com foco em resposta rápida, rodovia e urgência.",
       href: "/rotas/arapora/",
       type: "cidade",
       highlighted: false

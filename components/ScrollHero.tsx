@@ -279,6 +279,12 @@ export function ScrollHero() {
           }}
         />
 
+        <div className="pointer-events-none absolute inset-x-[-4%] bottom-[-9%] z-[6] h-[22vh] min-h-[150px] max-h-[260px] bg-[radial-gradient(ellipse_at_bottom,rgba(232,235,240,0.28)_0%,rgba(232,235,240,0.18)_28%,rgba(255,255,255,0.06)_52%,rgba(255,255,255,0)_78%)] blur-2xl" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-[-2%] z-[6] h-[15vh] min-h-[110px] max-h-[190px] bg-[linear-gradient(to_top,rgba(245,245,245,0.22)_0%,rgba(214,219,226,0.1)_34%,rgba(255,255,255,0)_76%)] opacity-90 blur-xl" />
+        <div className="pointer-events-none absolute bottom-[-5%] right-[-3%] z-[7] h-[27vw] w-[27vw] min-h-[154px] min-w-[154px] max-h-[360px] max-w-[360px] rounded-full bg-[radial-gradient(circle_at_72%_72%,rgba(244,244,244,0.96)_0%,rgba(244,244,244,0.62)_24%,rgba(232,235,240,0.3)_48%,rgba(255,255,255,0)_78%)] blur-3xl" />
+        <div className="pointer-events-none absolute bottom-[0%] right-[0.8%] z-[8] h-[16vw] w-[16vw] min-h-[84px] min-w-[84px] max-h-[196px] max-w-[196px] rounded-full bg-[radial-gradient(circle_at_60%_60%,rgba(255,255,255,0.62)_0%,rgba(245,245,245,0.3)_36%,rgba(255,255,255,0)_76%)] blur-xl" />
+        <div className="pointer-events-none absolute bottom-0 right-0 z-[7] h-[26vw] w-[34vw] min-h-[150px] min-w-[210px] max-h-[286px] max-w-[430px] bg-[linear-gradient(135deg,rgba(10,12,18,0)_0%,rgba(158,162,168,0.12)_38%,rgba(240,240,240,0.3)_70%,rgba(255,255,255,0.5)_100%)] opacity-100 blur-lg" />
+
         <div
           ref={logoLayerRef}
           className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center bg-[#020a26]"

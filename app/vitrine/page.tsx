@@ -15,7 +15,7 @@ const whatsapp = buildWhatsAppUrl({
 export const metadata: Metadata = {
   title: `Vitrine | ${siteConfigTemplate.siteName}`,
   description:
-    "Vitrine por tipo de veículo e carga com páginas individuais para moto, carro, caminhão, embarcação e outros veículos atendidos.",
+    "Vitrine por tipo de veículo e carga com atendimento para moto, carro, caminhão, embarcação e outros casos atendidos.",
   alternates: {
     canonical: "/vitrine/"
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     title: `Vitrine | ${siteConfigTemplate.siteName}`,
     description:
-      "Cards e páginas individuais para facilitar a escolha do tipo de veículo ou carga atendida.",
+      "Conheça os tipos de atendimento disponíveis para cada veículo ou carga.",
     type: "website",
     locale: "pt_BR",
     images: [
@@ -149,7 +149,7 @@ export default function VitrinePage() {
                     href={`/vitrine/${page.slug}/`}
                     className="mt-6 inline-flex rounded-md bg-brand-deep px-5 py-3 text-sm font-black uppercase text-white transition hover:bg-brand-blue focus:outline-none focus:ring-4 focus:ring-brand-blue/25"
                   >
-                  Ver página
+                  Ver detalhes
                   </Link>
                 </div>
               </article>
@@ -164,12 +164,12 @@ export default function VitrinePage() {
                 Vitrine por tipo de veículo e carga
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Escolha o tipo de veículo ou carga para abrir a página certa
+                Escolha o tipo de veículo ou carga para ver a descrição correspondente
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>
-                Cada página mostra a categoria atendida, a imagem correspondente e o caminho direto para o WhatsApp.
+                Cada item mostra a categoria atendida, a imagem correspondente e o caminho direto para o WhatsApp.
               </p>
               <p>
                 A vitrine ajuda o visitante a encontrar a opção certa sem depender de texto genérico.
@@ -187,7 +187,7 @@ export default function VitrinePage() {
               Áreas atendidas
             </p>
             <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-              Vitrine conectada à cobertura real
+                Cobertura real da operação
             </h2>
             <div className="mt-10 grid gap-3 sm:grid-cols-2">
               {siteConfigTemplate.serviceAreas.map((area) => (

@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         }
       ]
     },
-    keywords: [page.keyword, page.shortTitle, "Master Guincho", "SEO local"]
+    keywords: [page.keyword, page.shortTitle, "Master Guincho", "Ituiutaba"]
   };
 }
 
@@ -195,7 +195,7 @@ export default async function VitrineDetailPage({ params }: PageProps) {
                 Definição
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                {page.shortTitle} com foco em conversão
+                {page.shortTitle}
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
@@ -241,7 +241,7 @@ export default async function VitrineDetailPage({ params }: PageProps) {
                 Cobertura
               </p>
               <h2 className="mt-3 text-3xl font-black text-brand-ink md:text-5xl">
-                Contexto geográfico e local
+                Cobertura local e regional
               </h2>
               <div className="mt-8 grid gap-3">
                 {page.coverage.map((item) => (

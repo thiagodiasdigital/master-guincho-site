@@ -15,15 +15,15 @@ const whatsapp = buildWhatsAppUrl({
 export const metadata: Metadata = {
   title: `Cobertura e rotas | ${siteConfigTemplate.siteName}`,
   description:
-    "Cidades atendidas pela Master Guincho em Ituiutaba e região, com rotas e cobertura local.",
+    "Cidades atendidas pela Master Guincho em Ituiutaba e região, com foco em atendimento local e regional.",
   alternates: {
     canonical: "/rotas/"
   },
-  openGraph: {
+    openGraph: {
     url: pageUrl,
     title: `Cobertura e rotas | ${siteConfigTemplate.siteName}`,
-    description:
-      "Páginas de cidade para confirmar cobertura, solicitar atendimento e falar com a operação.",
+      description:
+      "Cidades atendidas para confirmar cobertura, solicitar atendimento e falar com a operação.",
     type: "website",
     locale: "pt_BR",
     images: [
@@ -117,7 +117,7 @@ export default function RoutesPage() {
                   href={`/rotas/${route.slug}/`}
                   className="mt-6 inline-flex rounded-md bg-brand-deep px-5 py-3 text-sm font-black uppercase text-white transition hover:bg-brand-blue focus:outline-none focus:ring-4 focus:ring-brand-blue/25"
                 >
-                  Ver página
+                  Ver detalhes
                 </Link>
               </article>
             ))}
@@ -136,10 +136,10 @@ export default function RoutesPage() {
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>
-                Cada cidade tem uma página própria para confirmar cobertura, serviços e o melhor caminho para chamar pelo WhatsApp.
+                Cada cidade tem uma descrição própria para confirmar cobertura, serviços e o melhor caminho para chamar pelo WhatsApp.
               </p>
               <p>
-                As páginas ajudam o cliente a entender se o atendimento está disponível na cidade ou na rota informada.
+                As descrições ajudam o cliente a entender se o atendimento está disponível na cidade ou na rota informada.
               </p>
               <p>
                 Ituiutaba continua como base da operação e as cidades vizinhas entram como áreas atendidas conforme disponibilidade.
